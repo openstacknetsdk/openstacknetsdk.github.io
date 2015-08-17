@@ -1,0 +1,184 @@
+﻿<!DOCTYPE html ><html><head><META http-equiv="Content-Type" content="text/html; charset=utf-8"><meta charset="utf-8"><link rel="shortcut icon" href="../icons/favicon.ico"><link rel="stylesheet" type="text/css" href="../styles/branding.css"><link rel="stylesheet" type="text/css" href="../styles/branding-en-US.css"><script type="text/javascript" src="../scripts/branding.js"> </script><title>Asynchronous Services</title><meta name="Language" content="en-us"><meta name="Microsoft.Help.Id" content="32cc6156-3b31-4450-b209-b55fcfc0a210"><meta name="Description" content="The openstack.net SDK is migrating to an asynchronous service model using the Task-based Asynchronous Pattern (TAP) Task-based Asynchronous Pattern (TAP) (Microsoft Developer Network) http://msdn.microsoft.com/en-us/library/hh873175."><meta name="Microsoft.Help.ContentType" content="Concepts"><meta name="BrandingAware" content="true"><link type="text/css" rel="stylesheet" href="../styles/highlight.css"><script type="text/javascript" src="../scripts/highlight.js"> </script><link rel="stylesheet" type="text/css" href="../styles/branding-Website.css"><script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script><script type="text/javascript" src="../scripts/branding-Website.js"></script></head><body onload="OnLoad('cs')"><input type="hidden" id="userDataCache" class="userDataStyle"><div class="pageHeader" id="PageHeader">openstack.net API Reference Documentation<form id="SearchForm" method="get" action="#" onsubmit="javascript:TransferToSearchPage(); return false;"><input id="SearchTextBox" type="text" maxlength="200" /><button id="SearchButton" type="submit"></button></form></div><div class="pageBody"><div class="leftNav" id="leftNav"><div id="tocNav"><div class="toclevel0" data-toclevel="0" data-childrenloaded="true"><a class="tocExpanded" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="362f6481-64dd-4f21-9e71-1d157b5dc745.htm" title="openstack.net API Reference Documentation" tocid="roottoc">openstack.net API Reference Documentation</a></div><div class="toclevel1" data-toclevel="1"><a data-tochassubtree="false" href="362f6481-64dd-4f21-9e71-1d157b5dc745.htm" title="Welcome" tocid="362f6481-64dd-4f21-9e71-1d157b5dc745">Welcome</a></div><div class="toclevel1" data-toclevel="1"><a data-tochassubtree="false" href="8b286b82-7aaf-4e45-9ffc-adbd7dbcfaa6.htm" title="License Agreement" tocid="8b286b82-7aaf-4e45-9ffc-adbd7dbcfaa6">License Agreement</a></div><div class="toclevel1" data-toclevel="1"><a data-tochassubtree="false" href="9c4a6074-9d84-4488-9565-50ecb5049ffe.htm" title="Breaking Changes Policy" tocid="9c4a6074-9d84-4488-9565-50ecb5049ffe">Breaking Changes Policy</a></div><div class="toclevel1 current" data-toclevel="1"><a data-tochassubtree="false" href="32cc6156-3b31-4450-b209-b55fcfc0a210.htm" title="Asynchronous Services" tocid="32cc6156-3b31-4450-b209-b55fcfc0a210">Asynchronous Services</a></div><div class="toclevel1" data-toclevel="1"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="e11545c6-88c9-4ff1-b0cf-abffd4bd3ff7.htm" title="User Guide" tocid="e11545c6-88c9-4ff1-b0cf-abffd4bd3ff7">User Guide</a></div><div class="toclevel1" data-toclevel="1"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="R_Project_API_Reference_Documentation.htm" title="API Reference" tocid="R_Project_API_Reference_Documentation">API Reference</a></div></div><div id="tocResizableEW" onmousedown="OnMouseDown(event);"></div><div id="TocResize" class="tocResize"><img id="ResizeImageIncrease" src="../icons/TocOpen.gif" onclick="OnIncreaseToc()" alt="Click or drag to resize" title="Click or drag to resize"><img id="ResizeImageReset" src="../icons/TocClose.gif" style="display:none" onclick="OnResetToc()" alt="Click or drag to resize" title="Click or drag to resize"></div></div><div class="topicContent" id="TopicContent"><table class="titleTable"><tr><td class="titleColumn">Asynchronous Services</td></tr></table><span class="introStyle"></span><div class="introduction"><p>
+        The openstack.net SDK is migrating to an asynchronous service model using the <a href="http://msdn.microsoft.com/en-us/library/hh873175.aspx" title="Task-based Asynchronous Pattern (TAP) (Microsoft Developer Network)" target="_blank">Task-based Asynchronous Pattern (TAP)</a>
+        for ongoing feature support. This page contains information about several aspects of the asynchronous interfaces
+        which could result in some confusion during development.
+      </p><p>
+        Users unfamiliar with asynchronous programming may find the following introduction particularly valuable.
+      </p><ul><li><p><a href="http://blog.stephencleary.com/2012/02/async-and-await.html" target="_blank">Async and Await</a></p></li></ul></div><div class="collapsibleAreaRegion" id="LanguageSupport"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0"><img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png">Language Support for Asynchronous Programming</span></div><div id="ID1RBSection" class="collapsibleSection"><p>
+          Support for asynchronous interfaces in this library takes advantage of two recent advancements
+          in asynchronous programming support in .NET. First, the <a href="http://msdn.microsoft.com/en-us/library/dd460717.aspx" target="_blank">Task Parallel Library</a>
+          added base library support for creating asynchronous tasks. Second, language improvements allow
+          for these tasks to be naturally and efficiently used within code. Depending on the environment
+          used by your project, you may need to take additional steps in order to use these features.
+        </p><p>
+          The Task Parallel Library is used extensively by the implementation of this SDK. The library was
+          originally added as part of .NET 4, users still working with .NET 3.5 make use of the
+          <a href="http://www.nuget.org/packages/TaskParallelLibrary/" target="_blank">Task Parallel Library for .NET 3.5</a> package using NuGet. This package is automatically installed by NuGet
+          when the SDK package is added to a project targeting .NET 3.5.
+        </p><p>
+          Language support varies by language. The following table shows the language features available
+          for several language, along with special considerations for use.
+        </p><div class="tableSection"><table><tr><th><p>Language</p></th><th><p>Keywords</p></th><th><p>Visual Studio</p></th><th><p>.NET Framework</p></th></tr><tr><td><p>C#</p></td><td><p><span class="input">async</span>/<span class="input">await</span></p></td><td><p><a href="http://msdn.microsoft.com/en-us/library/hh191443.aspx" title="Asynchronous Programming with Async and Await (C# and Visual Basic) (Microsoft Developer Network)" target="_blank">Supported starting in Visual Studio 2012</a></p><p>
+                Can compile in Visual Studio 2010 if <span class="code">UseHostCompilerIfAvailable</span> is
+                set to <span class="code">false</span> (see below)
+              </p></td><td><p>Supported in .NET 4.5+</p><p><a href="http://www.nuget.org/packages/Microsoft.Bcl.Async/" title="Microsoft Async (NuGet Gallery)" target="_blank">Available via NuGet for .NET 4</a></p></td></tr><tr><td><p>Visual Basic</p></td><td><p><span class="input">Async</span>/<span class="input">Await</span></p></td><td><p><a href="http://msdn.microsoft.com/en-us/library/hh191443.aspx" title="Asynchronous Programming with Async and Await (C# and Visual Basic) (Microsoft Developer Network)" target="_blank">Supported starting in Visual Studio 2012</a></p><p>
+                Can compile in Visual Studio 2010 if <span class="code">UseHostCompilerIfAvailable</span> is
+                set to <span class="code">false</span> (see below)
+              </p></td><td><p>Supported in .NET 4.5+</p><p><a href="http://www.nuget.org/packages/Microsoft.Bcl.Async/" title="Microsoft Async (NuGet Gallery)" target="_blank">Available via NuGet for .NET 4</a></p></td></tr><tr><td><p>Visual C++</p></td><td><p>Not available</p></td><td><p>Not available</p></td><td><p>Not available</p></td></tr><tr><td><p>F#</p></td><td><p><span class="input">async</span>/<span class="input">let!</span></p></td><td><p>Visual Studio 2010+</p></td><td><p>Supported in .NET 4+</p></td></tr></table></div><h4 class="subHeading">Compiling projects with async/await in Visual Studio 2010</h4><div class="subsection"><p>
+              To compile C# or Visual Basic projects which use the newer language support for asynchronous
+              programming in Visual Studio 2010, the
+              <a href="http://blogs.msdn.com/b/ed_maurer/archive/2008/06/11/a-tale-of-two-compilers.aspx" title="A Tale of Two Compilers (MSDN Blogs)" target="_blank">in-process compiler</a>
+              must be disabled. This is performed by manually editing the project file to include the following
+              as the last element of the first <span class="code">&lt;PropertyGroup&gt;</span> section in the
+              project file.
+            </p><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EABAAADAAA_copyCode" href="#" onclick="javascript:CopyToClipboard('ID0EABAAADAAA');return false;" title="Copy">Copy</a></div></div><div id="ID0EABAAADAAA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-xml-bracket">&lt;</span><span class="highlight-xml-tag">UseHostCompilerIfAvailable</span><span class="highlight-xml-bracket">&gt;</span>false<span class="highlight-xml-bracket">&lt;/</span><span class="highlight-xml-tag">UseHostCompilerIfAvailable</span><span class="highlight-xml-bracket">&gt;</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EABAAADAAA");</script><div class="alert"><table><tr><th><img src="../icons/AlertCaution.png" alt="Important note"> Important</th></tr><tr><td><p>
+                While the <span class="code">UseHostCompilerIfAvailable</span> setting allows Visual Studio 2010 to
+                compile C# and Visual Basic projects using <span class="keyword">async</span>/<span class="keyword">await</span>, the editor itself does not
+                recognize these keywords. As a result, some functionality including but not limited to IntelliSense may
+                not function if this option is used.
+              </p></td></tr></table></div></div></div><div class="collapsibleAreaRegion" id="Exceptions"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png">Exceptions Thrown by Asynchronous Methods</span></div><div id="ID2RBSection" class="collapsibleSection"><p>
+          Asynchronous methods are capable of throwing exceptions before creating a
+          <a href="http://msdn2.microsoft.com/en-us/library/dd235678" target="_blank">Task</a> or during the asynchronous
+          execution of the task itself. The documentation for asynchronous methods does not distinguish between these
+          two cases, allowing for any of the specified exceptions to be thrown in either manner.
+        </p><div class="alert"><table><tr><th><img src="../icons/AlertCaution.png" alt="Important note"> Important</th></tr><tr><td><p>
+            This documentation uses the term asynchronous method to refer to any method with a return type of
+            <a href="http://msdn2.microsoft.com/en-us/library/dd235678" target="_blank">Task</a> or
+            <a href="http://msdn2.microsoft.com/en-us/library/dd321424" target="_blank">Task<span id="LSTAEA0DE21_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAEA0DE21_0?cs=<|vb=(Of |cpp=<|nu=(|fs=<'");</script>TResult<span id="LSTAEA0DE21_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAEA0DE21_1?cs=>|vb=)|cpp=>|nu=)|fs=>");</script></a>. Languages with built-in support
+            for asynchronous programming have their own related terminology which may differ in meaning.
+          </p></td></tr></table></div><h4 class="subHeading">Exceptions Prior to Task Creation</h4><div class="subsection"><p>
+              Exceptions thrown prior to the creation of the
+              <a href="http://msdn2.microsoft.com/en-us/library/dd235678" target="_blank">Task</a> object representing the
+              asynchronous operation must be caught directly by the calling code. For example, if the code
+              throws an <a href="http://msdn2.microsoft.com/en-us/library/27426hcy" target="_blank">ArgumentNullException</a> in this
+              manner, the calling code would need to contain an exception handler for
+              <a href="http://msdn2.microsoft.com/en-us/library/27426hcy" target="_blank">ArgumentNullException</a> or
+              <a href="http://msdn2.microsoft.com/en-us/library/3w1b3114" target="_blank">ArgumentException</a> to handle the exception.
+            </p><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EDAACACAAA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EDAACACAAA','cs','1','4');return false;">C#</a></div><div id="ID0EDAACACAAA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EDAACACAAA','vb','2','4');return false;">VB</a></div><div id="ID0EDAACACAAA_tab3" class="codeSnippetContainerTabPhantom"><a href="#" onclick="javascript:ChangeTab('ID0EDAACACAAA','cpp','3','4');return false;">C++</a></div><div id="ID0EDAACACAAA_tab4" class="codeSnippetContainerTabPhantom"><a href="#" onclick="javascript:ChangeTab('ID0EDAACACAAA','fs','4','4');return false;">F#</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EDAACACAAA_copyCode" href="#" onclick="javascript:CopyToClipboard('ID0EDAACACAAA');return false;" title="Copy">Copy</a></div></div><div id="ID0EDAACACAAA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-keyword">try</span>
+{
+    Task myTask = SomeOperationAsync();
+}
+<span class="highlight-keyword">catch</span> (ArgumentException ex)
+{
+    <span class="highlight-comment">// ex was thrown directly by SomeOperationAsync. This cannot occur if SomeOperationAsync is an async</span>
+    <span class="highlight-comment">// function (§10.15 - C# Language Specification Version 5.0).</span>
+}</pre></div><div id="ID0EDAACACAAA_code_Div2" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="highlight-keyword">Try</span>
+    <span class="highlight-keyword">Dim</span> myTask <span class="highlight-keyword">As</span> Task = SomeOperationAsync()
+<span class="highlight-keyword">Catch</span> ex <span class="highlight-keyword">As</span> ArgumentException
+    <span class="highlight-comment">' ex was thrown directly by SomeOperationAsync. This cannot occur if SomeOperationAsync is an async method</span>
+    <span class="highlight-comment">' (§10.1.3 - Visual Basic Language Specification Version 11.0).</span>
+<span class="highlight-keyword">End</span> <span class="highlight-keyword">Try</span></pre></div><div id="ID0EDAACACAAA_code_Div3" class="codeSnippetContainerCode" style="display: none"><p>No code example is currently available or this language may not be supported.</p></div><div id="ID0EDAACACAAA_code_Div4" class="codeSnippetContainerCode" style="display: none"><p>No code example is currently available or this language may not be supported.</p></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EDAACACAAA");</script></div><h4 class="subHeading">Exceptions During Task Execution</h4><div class="subsection"><p>
+              Exceptions thrown during the asynchronous execution of the task are wrapped in an
+              <a href="http://msdn2.microsoft.com/en-us/library/dd386929" target="_blank">AggregateException</a> object and returned by the
+              <a href="http://msdn2.microsoft.com/en-us/library/dd235654" target="_blank">Exception</a> property.
+              Exceptions thrown in this manner must be handled either by a task continuation that checks the
+              <a href="http://msdn2.microsoft.com/en-us/library/dd235654" target="_blank">Exception</a> property, or
+              by calling <a href="http://msdn2.microsoft.com/en-us/library/dd235604" target="_blank">Wait</a>
+              or checking the <a href="http://msdn2.microsoft.com/en-us/library/dd321468" target="_blank">Result</a>
+              property within an exception handling block that includes a handler for
+              <a href="http://msdn2.microsoft.com/en-us/library/dd386929" target="_blank">AggregateException</a>.
+            </p><p>
+              This library additionally ensures that exceptions thrown by asynchronous operations are not wrapped in
+              multiple layers of <a href="http://msdn2.microsoft.com/en-us/library/dd386929" target="_blank">AggregateException</a>. In other words,
+              an <a href="http://msdn2.microsoft.com/en-us/library/3w1b3114" target="_blank">ArgumentException</a> thrown during the asynchronous
+              execution of a task will result in the
+              <a href="http://msdn2.microsoft.com/en-us/library/dd235654" target="_blank">Exception</a> property returning an
+              <a href="http://msdn2.microsoft.com/en-us/library/dd386929" target="_blank">AggregateException</a>, and that exception will not
+              contain an nested instances of <a href="http://msdn2.microsoft.com/en-us/library/dd386929" target="_blank">AggregateException</a> in
+              the <a href="http://msdn2.microsoft.com/en-us/library/dd386873" target="_blank">InnerExceptions</a> collection. In
+              most cases, the <a href="http://msdn2.microsoft.com/en-us/library/dd386929" target="_blank">AggregateException</a> wraps exactly one
+              inner exception, which is the original
+              <a href="http://msdn2.microsoft.com/en-us/library/3w1b3114" target="_blank">ArgumentException</a>. This guarantee simplifies the use
+              of the API is languages that support <span class="keyword">async</span>/<span class="keyword">await</span>, since those operators automatically unwrap
+              the first layer of <a href="http://msdn2.microsoft.com/en-us/library/dd386929" target="_blank">AggregateException</a>.
+            </p><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EDAABACAAA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EDAABACAAA','cs','1','4');return false;">C#</a></div><div id="ID0EDAABACAAA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EDAABACAAA','vb','2','4');return false;">VB</a></div><div id="ID0EDAABACAAA_tab3" class="codeSnippetContainerTabPhantom"><a href="#" onclick="javascript:ChangeTab('ID0EDAABACAAA','cpp','3','4');return false;">C++</a></div><div id="ID0EDAABACAAA_tab4" class="codeSnippetContainerTabPhantom"><a href="#" onclick="javascript:ChangeTab('ID0EDAABACAAA','fs','4','4');return false;">F#</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EDAABACAAA_copyCode" href="#" onclick="javascript:CopyToClipboard('ID0EDAABACAAA');return false;" title="Copy">Copy</a></div></div><div id="ID0EDAABACAAA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-keyword">try</span>
+{
+    Task myTask = SomeOperationAsync();
+    myTask.Wait();
+}
+<span class="highlight-keyword">catch</span> (AggregateException wrapperEx)
+{
+    ArgumentException ex = wrapperEx.InnerException <span class="highlight-keyword">as</span> ArgumentException;
+    <span class="highlight-keyword">if</span> (ex == <span class="highlight-keyword">null</span>)
+        <span class="highlight-keyword">throw</span>;
+
+    <span class="highlight-comment">// ex was thrown during the asynchronous portion of SomeOperationAsync. This is always the case if</span>
+    <span class="highlight-comment">// SomeOperationAsync is an async function (§10.15 - C# Language Specification Version 5.0).</span>
+}</pre></div><div id="ID0EDAABACAAA_code_Div2" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="highlight-keyword">Try</span>
+    <span class="highlight-keyword">Dim</span> myTask <span class="highlight-keyword">As</span> Task = SomeOperationAsync()
+    myTask.Wait()
+<span class="highlight-keyword">Catch</span> wrapperEx <span class="highlight-keyword">As</span> AggregateException
+    <span class="highlight-keyword">Dim</span> ex = <span class="highlight-keyword">TryCast</span>(wrapperEx.InnerException, ArgumentException)
+    <span class="highlight-keyword">If</span> ex <span class="highlight-keyword">Is</span> <span class="highlight-keyword">Nothing</span> <span class="highlight-keyword">Then</span>
+        <span class="highlight-keyword">Throw</span>
+    <span class="highlight-keyword">End</span> <span class="highlight-keyword">If</span>
+
+    <span class="highlight-comment">' ex was thrown during the asynchronous portion of SomeOperationAsync. This is always the case if</span>
+    <span class="highlight-comment">' SomeOperationAsync is an async method (§10.1.3 - Visual Basic Language Specification Version 11.0).</span>
+<span class="highlight-keyword">End</span> <span class="highlight-keyword">Try</span></pre></div><div id="ID0EDAABACAAA_code_Div3" class="codeSnippetContainerCode" style="display: none"><p>No code example is currently available or this language may not be supported.</p></div><div id="ID0EDAABACAAA_code_Div4" class="codeSnippetContainerCode" style="display: none"><p>No code example is currently available or this language may not be supported.</p></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EDAABACAAA");</script></div><h4 class="subHeading">Consistent Exception Handling</h4><div class="subsection"><p>
+              Applications implementing specialized handling for exception which occur during asynchronous calls have
+              multiple options available for consistent handling. The simplest solution, when available, involves using
+              <span class="keyword">async</span>/<span class="keyword">await</span>. These operators automatically unwrap the first exception instance in the
+              <a href="http://msdn2.microsoft.com/en-us/library/dd386873" target="_blank">InnerExceptions</a> collection of an
+              <a href="http://msdn2.microsoft.com/en-us/library/dd386929" target="_blank">AggregateException</a>, resulting in behavior that appears
+              to calling code as though the exception was directly thrown by the invoked method. The second method
+              involves treating the original call as a continuation of another task, ensuring that all exceptions are
+              presented as an <a href="http://msdn2.microsoft.com/en-us/library/dd386929" target="_blank">AggregateException</a> to the exception
+              handling code. The following code shows the application of this strategy to an existing asynchronous call.
+              Note that the <span class="nolink">CompletedTask</span> class and
+              <span class="nolink">Then</span>
+              extension method are part of the <a href="https://github.com/rackerlabs/dotnet-threading" target="_blank">Rackspace Threading Library</a> separately from this SDK.
+            </p><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EDBAAACAAA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EDBAAACAAA','cs','1','4');return false;">C#</a></div><div id="ID0EDBAAACAAA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EDBAAACAAA','vb','2','4');return false;">VB</a></div><div id="ID0EDBAAACAAA_tab3" class="codeSnippetContainerTabPhantom"><a href="#" onclick="javascript:ChangeTab('ID0EDBAAACAAA','cpp','3','4');return false;">C++</a></div><div id="ID0EDBAAACAAA_tab4" class="codeSnippetContainerTabPhantom"><a href="#" onclick="javascript:ChangeTab('ID0EDBAAACAAA','fs','4','4');return false;">F#</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EDBAAACAAA_copyCode" href="#" onclick="javascript:CopyToClipboard('ID0EDBAAACAAA');return false;" title="Copy">Copy</a></div></div><div id="ID0EDBAAACAAA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// original asynchronous method invocation</span>
+Task task1 = SomeOperationAsync();
+
+<span class="highlight-comment">// method invocation treated as a continuation</span>
+Task task2 = task1.ContinueWith(_ =&gt; SomeOperationAsync());</pre></div><div id="ID0EDBAAACAAA_code_Div2" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="highlight-comment">' original asynchronous method invocation</span>
+<span class="highlight-keyword">Dim</span> task1 = SomeOperationAsync()
+
+<span class="highlight-comment">' method invocation treated as a continuation</span>
+<span class="highlight-keyword">Dim</span> task2 = task1.ContinueWith(<span class="highlight-keyword">Function</span>(task) SomeOperationAsync())</pre></div><div id="ID0EDBAAACAAA_code_Div3" class="codeSnippetContainerCode" style="display: none"><p>No code example is currently available or this language may not be supported.</p></div><div id="ID0EDBAAACAAA_code_Div4" class="codeSnippetContainerCode" style="display: none"><p>No code example is currently available or this language may not be supported.</p></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EDBAAACAAA");</script><p>
+              Code using the continuation strategy for consistent error handling may benefit from the use of the
+              <span class="nolink">Catch</span> methods,
+              which are also part of the <a href="https://github.com/rackerlabs/dotnet-threading" target="_blank">Rackspace Threading Library</a>. This extension method behaves in a
+              manner similar to <span class="keyword">await</span>, automatically unwrapping the first exception instance in the
+              <a href="http://msdn2.microsoft.com/en-us/library/dd386873" target="_blank">InnerExceptions</a> collection
+              of an <a href="http://msdn2.microsoft.com/en-us/library/dd386929" target="_blank">AggregateException</a> before invoking the
+              continuation function which handles the exception.
+            </p></div></div><div class="collapsibleAreaRegion" id="SynchronousExtensions"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID3RB')" onkeypress="SectionExpandCollapse_CheckKey('ID3RB', event)" tabindex="0"><img id="ID3RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png">Synchronous Extensions</span></div><div id="ID3RBSection" class="collapsibleSection"><div class="alert"><table><tr><th><img src="../icons/AlertCaution.png" alt="Caution note"> Caution</th></tr><tr><td><p>
+            All synchronous extension methods provided by this library are obsolete, and will be removed from a future
+            release.
+          </p></td></tr></table></div><p>
+          The namespace <a href="N_net_openstack_Core_Synchronous.htm">net.openstack.Core.Synchronous</a> contains extension
+          methods that allow methods in an asynchronous service interface to be invoked synchronously. These extension
+          methods are not recommended for use in new development, but are provided as a compatibility aid for projects
+          where external restrictions preclude the direct use of the asynchronous APIs. These extension methods perform
+          the following functions:
+        </p><ul><li><p>
+              Invoke the asynchronous method, wait for the resulting
+              <a href="http://msdn2.microsoft.com/en-us/library/dd235678" target="_blank">Task</a> to complete, and (where
+              applicable) return the task result.
+            </p></li><li><p>
+              If an exception is thrown during the asynchronous execution of the method and wrapped in an
+              <a href="http://msdn2.microsoft.com/en-us/library/dd386929" target="_blank">AggregateException</a>, the extension method unwraps the inner exception and throws
+              it directly, just as would occur if the underlying method were executed synchronously.
+            </p></li></ul><p>
+          The extensions for synchronous API calls do not expose all features of the underlying asynchronous API. In
+          particular, the following limitations apply.
+        </p><ul><li><p>
+              For asynchronous methods taking an <a href="T_net_openstack_Core_AsyncCompletionOption.htm">AsyncCompletionOption</a> parameter to control
+              the behavior of the task created for asynchronous server-side operations, the synchronous extension
+              always passes <a href="T_net_openstack_Core_AsyncCompletionOption.htm">RequestSubmitted</a> for the argument.
+            </p></li><li><p>
+              The synchronous extensions always pass <a href="http://msdn2.microsoft.com/en-us/library/dd780763" target="_blank">None</a> for the
+              <a href="http://msdn2.microsoft.com/en-us/library/dd384802" target="_blank">CancellationToken</a> argument, and do not support asynchronous cancellation of
+              the call.
+            </p></li><li><p>
+              The synchronous extensions do not support progress callbacks, and pass <span class="code">null</span>
+              to APIs with an <span class="nolink">IProgress</span> parameter.
+            </p></li></ul></div></div></div><div id="pageFooter" class="pageFooter"><div class="feedbackLink">Send comments on this topic to
+        <a id="HT_MailLink" href="mailto:openstack.net%40lists.rackspace.com?Subject=openstack.net API Reference Documentation">openstack.net@lists.rackspace.com</a></div><script type="text/javascript">
+        var HT_mailLink = document.getElementById("HT_MailLink");
+        var HT_mailLinkText = HT_mailLink.innerHTML;
+        HT_mailLink.href += ": " + document.title + "\u0026body=" + encodeURIComponent("Your feedback is used to improve the documentation and the product. Your e-mail address will not be used for any other purpose and is disposed of after the issue you report is resolved. While working to resolve the issue that you report, you may be contacted via e-mail to get further details or clarification on the feedback you sent. After the issue you report has been addressed, you may receive an e-mail to let you know that your feedback has been addressed.");
+        HT_mailLink.innerHTML = HT_mailLinkText;
+        </script></div></body></html>
