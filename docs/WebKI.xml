@@ -2983,8 +2983,8 @@
     <HelpKINode Title="Flavor Constructor " Url="html/M_OpenStack_ContentDeliveryNetworks_v1_Flavor__ctor.htm" />
   </HelpKINode>
   <HelpKINode Title="Flavor.Id property">
-    <HelpKINode Title="Flavor.Id Property " Url="html/P_OpenStack_ContentDeliveryNetworks_v1_Flavor_Id.htm" />
     <HelpKINode Title="Flavor.Id Property " Url="html/P_net_openstack_Core_Domain_Flavor_Id.htm" />
+    <HelpKINode Title="Flavor.Id Property " Url="html/P_OpenStack_ContentDeliveryNetworks_v1_Flavor_Id.htm" />
   </HelpKINode>
   <HelpKINode Title="Flavor.Links property">
     <HelpKINode Title="Flavor.Links Property " Url="html/P_OpenStack_ContentDeliveryNetworks_v1_Flavor_Links.htm" />
@@ -3012,12 +3012,12 @@
   <HelpKINode Title="FlavorDetails.RxtxFactor property" Url="html/P_net_openstack_Core_Domain_FlavorDetails_RxtxFactor.htm" />
   <HelpKINode Title="FlavorDetails.VirtualCPUCount property" Url="html/P_net_openstack_Core_Domain_FlavorDetails_VirtualCPUCount.htm" />
   <HelpKINode Title="FlavorId class">
-    <HelpKINode Title="FlavorId Class" Url="html/T_net_openstack_Core_Domain_FlavorId.htm" />
     <HelpKINode Title="FlavorId Class" Url="html/T_net_openstack_Providers_Rackspace_Objects_Databases_FlavorId.htm" />
+    <HelpKINode Title="FlavorId Class" Url="html/T_net_openstack_Core_Domain_FlavorId.htm" />
     <HelpKINode Title="about FlavorId class" Url="html/T_net_openstack_Core_Domain_FlavorId.htm" />
     <HelpKINode Title="about FlavorId class" Url="html/T_net_openstack_Providers_Rackspace_Objects_Databases_FlavorId.htm" />
-    <HelpKINode Title="constructor" Url="html/M_net_openstack_Core_Domain_FlavorId__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/M_net_openstack_Providers_Rackspace_Objects_Databases_FlavorId__ctor.htm" />
+    <HelpKINode Title="constructor" Url="html/M_net_openstack_Core_Domain_FlavorId__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_net_openstack_Providers_Rackspace_Objects_Databases_FlavorId.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_net_openstack_Core_Domain_FlavorId.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_net_openstack_Core_Domain_FlavorId.htm" />
@@ -3680,8 +3680,8 @@
   <HelpKINode Title="HostInformationType.Processes property" Url="html/P_net_openstack_Providers_Rackspace_Objects_Monitoring_HostInformationType_Processes.htm" />
   <HelpKINode Title="HostInformationType.System property" Url="html/P_net_openstack_Providers_Rackspace_Objects_Monitoring_HostInformationType_System.htm" />
   <HelpKINode Title="HostInformationType.Who property" Url="html/P_net_openstack_Providers_Rackspace_Objects_Monitoring_HostInformationType_Who.htm" />
-  <HelpKINode Title="Hostname property" Url="html/P_net_openstack_Providers_Rackspace_Objects_Monitoring_TraceRouteHop_Hostname.htm" />
   <HelpKINode Title="HostName property" Url="html/P_net_openstack_Providers_Rackspace_Objects_Databases_DatabaseInstance_HostName.htm" />
+  <HelpKINode Title="Hostname property" Url="html/P_net_openstack_Providers_Rackspace_Objects_Monitoring_TraceRouteHop_Hostname.htm" />
   <HelpKINode Title="HostRoute class">
     <HelpKINode Title="HostRoute Class" Url="html/T_OpenStack_Networking_v2_HostRoute.htm" />
     <HelpKINode Title="about HostRoute class" Url="html/T_OpenStack_Networking_v2_HostRoute.htm" />
@@ -6865,6 +6865,7 @@
   </HelpKINode>
   <HelpKINode Title="OpenStackNet.Configuration field" Url="html/F_OpenStack_OpenStackNet_Configuration.htm" />
   <HelpKINode Title="OpenStackNet.Configure method" Url="html/M_OpenStack_OpenStackNet_Configure.htm" />
+  <HelpKINode Title="OpenStackNet.ResetDefaults method" Url="html/M_OpenStack_OpenStackNet_ResetDefaults.htm" />
   <HelpKINode Title="OpenStackNet.Tracing class">
     <HelpKINode Title="OpenStackNet.Tracing Class" Url="html/T_OpenStack_OpenStackNet_Tracing.htm" />
     <HelpKINode Title="about OpenStackNet.Tracing class" Url="html/T_OpenStack_OpenStackNet_Tracing.htm" />
@@ -7735,7 +7736,10 @@
   </HelpKINode>
   <HelpKINode Title="Rescuing property" Url="html/P_net_openstack_Core_Domain_TaskState_Rescuing.htm" />
   <HelpKINode Title="ResetApiKey method" Url="html/M_net_openstack_Providers_Rackspace_CloudIdentityProvider_ResetApiKey.htm" />
-  <HelpKINode Title="ResetDefaults method" Url="html/M_OpenStack_OpenStackNetConfigurationOptions_ResetDefaults.htm" />
+  <HelpKINode Title="ResetDefaults method">
+    <HelpKINode Title="OpenStackNet.ResetDefaults Method " Url="html/M_OpenStack_OpenStackNet_ResetDefaults.htm" />
+    <HelpKINode Title="OpenStackNetConfigurationOptions.ResetDefaults Method " Url="html/M_OpenStack_OpenStackNetConfigurationOptions_ResetDefaults.htm" />
+  </HelpKINode>
   <HelpKINode Title="Resize method" Url="html/M_net_openstack_Core_Domain_ServerBase_Resize.htm" />
   <HelpKINode Title="Resize property">
     <HelpKINode Title="DatabaseInstanceStatus.Resize Property " Url="html/P_net_openstack_Providers_Rackspace_Objects_Databases_DatabaseInstanceStatus_Resize.htm" />
@@ -9283,10 +9287,10 @@
   <HelpKINode Title="UserAuthenticationException class">
     <HelpKINode Title="UserAuthenticationException Class" Url="html/T_net_openstack_Core_Exceptions_UserAuthenticationException.htm" />
     <HelpKINode Title="UserAuthenticationException Class" Url="html/T_OpenStack_UserAuthenticationException.htm" />
-    <HelpKINode Title="about UserAuthenticationException class" Url="html/T_net_openstack_Core_Exceptions_UserAuthenticationException.htm" />
     <HelpKINode Title="about UserAuthenticationException class" Url="html/T_OpenStack_UserAuthenticationException.htm" />
-    <HelpKINode Title="constructor" Url="html/M_OpenStack_UserAuthenticationException__ctor.htm" />
+    <HelpKINode Title="about UserAuthenticationException class" Url="html/T_net_openstack_Core_Exceptions_UserAuthenticationException.htm" />
     <HelpKINode Title="constructor" Url="html/M_net_openstack_Core_Exceptions_UserAuthenticationException__ctor.htm" />
+    <HelpKINode Title="constructor" Url="html/M_OpenStack_UserAuthenticationException__ctor.htm" />
   </HelpKINode>
   <HelpKINode Title="UserAuthenticationException.UserAuthenticationException constructor">
     <HelpKINode Title="UserAuthenticationException Constructor " Url="html/M_net_openstack_Core_Exceptions_UserAuthenticationException__ctor.htm" />
@@ -9339,10 +9343,10 @@
     <HelpKINode Title="properties" Url="html/Properties_T_net_openstack_Providers_Rackspace_Objects_Databases_UserName.htm" />
   </HelpKINode>
   <HelpKINode Title="Username property">
+    <HelpKINode Title="CloudIdentity.Username Property " Url="html/P_net_openstack_Core_Domain_CloudIdentity_Username.htm" />
     <HelpKINode Title="NewUser.Username Property " Url="html/P_net_openstack_Core_Domain_NewUser_Username.htm" />
     <HelpKINode Title="PasswordCredential.Username Property " Url="html/P_net_openstack_Providers_Rackspace_Objects_Request_PasswordCredential_Username.htm" />
     <HelpKINode Title="User.Username Property " Url="html/P_net_openstack_Core_Domain_User_Username.htm" />
-    <HelpKINode Title="CloudIdentity.Username Property " Url="html/P_net_openstack_Core_Domain_CloudIdentity_Username.htm" />
     <HelpKINode Title="UserCredential.Username Property " Url="html/P_net_openstack_Core_Domain_UserCredential_Username.htm" />
   </HelpKINode>
   <HelpKINode Title="UserName property">
