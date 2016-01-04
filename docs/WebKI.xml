@@ -2967,10 +2967,10 @@
   <HelpKINode Title="Flavor class">
     <HelpKINode Title="Flavor Class" Url="html/T_net_openstack_Core_Domain_Flavor.htm" />
     <HelpKINode Title="Flavor Class" Url="html/T_OpenStack_ContentDeliveryNetworks_v1_Flavor.htm" />
-    <HelpKINode Title="about Flavor class" Url="html/T_net_openstack_Core_Domain_Flavor.htm" />
     <HelpKINode Title="about Flavor class" Url="html/T_OpenStack_ContentDeliveryNetworks_v1_Flavor.htm" />
-    <HelpKINode Title="constructor" Url="html/M_OpenStack_ContentDeliveryNetworks_v1_Flavor__ctor.htm" />
+    <HelpKINode Title="about Flavor class" Url="html/T_net_openstack_Core_Domain_Flavor.htm" />
     <HelpKINode Title="constructor" Url="html/M_net_openstack_Core_Domain_Flavor__ctor.htm" />
+    <HelpKINode Title="constructor" Url="html/M_OpenStack_ContentDeliveryNetworks_v1_Flavor__ctor.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_OpenStack_ContentDeliveryNetworks_v1_Flavor.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_net_openstack_Core_Domain_Flavor.htm" />
   </HelpKINode>
@@ -2979,8 +2979,8 @@
     <HelpKINode Title="Server.Flavor Property " Url="html/P_net_openstack_Core_Domain_Server_Flavor.htm" />
   </HelpKINode>
   <HelpKINode Title="Flavor.Flavor constructor">
-    <HelpKINode Title="Flavor Constructor " Url="html/M_net_openstack_Core_Domain_Flavor__ctor.htm" />
     <HelpKINode Title="Flavor Constructor " Url="html/M_OpenStack_ContentDeliveryNetworks_v1_Flavor__ctor.htm" />
+    <HelpKINode Title="Flavor Constructor " Url="html/M_net_openstack_Core_Domain_Flavor__ctor.htm" />
   </HelpKINode>
   <HelpKINode Title="Flavor.Id property">
     <HelpKINode Title="Flavor.Id Property " Url="html/P_OpenStack_ContentDeliveryNetworks_v1_Flavor_Id.htm" />
@@ -3012,8 +3012,8 @@
   <HelpKINode Title="FlavorDetails.RxtxFactor property" Url="html/P_net_openstack_Core_Domain_FlavorDetails_RxtxFactor.htm" />
   <HelpKINode Title="FlavorDetails.VirtualCPUCount property" Url="html/P_net_openstack_Core_Domain_FlavorDetails_VirtualCPUCount.htm" />
   <HelpKINode Title="FlavorId class">
-    <HelpKINode Title="FlavorId Class" Url="html/T_net_openstack_Core_Domain_FlavorId.htm" />
     <HelpKINode Title="FlavorId Class" Url="html/T_net_openstack_Providers_Rackspace_Objects_Databases_FlavorId.htm" />
+    <HelpKINode Title="FlavorId Class" Url="html/T_net_openstack_Core_Domain_FlavorId.htm" />
     <HelpKINode Title="about FlavorId class" Url="html/T_net_openstack_Core_Domain_FlavorId.htm" />
     <HelpKINode Title="about FlavorId class" Url="html/T_net_openstack_Providers_Rackspace_Objects_Databases_FlavorId.htm" />
     <HelpKINode Title="constructor" Url="html/M_net_openstack_Providers_Rackspace_Objects_Databases_FlavorId__ctor.htm" />
@@ -4691,8 +4691,8 @@
     <HelpKINode Title="ActiveServer.Links Property " Url="html/P_net_openstack_Providers_Rackspace_Objects_AutoScale_ActiveServer_Links.htm" />
     <HelpKINode Title="DatabaseFlavor.Links Property " Url="html/P_net_openstack_Providers_Rackspace_Objects_Databases_DatabaseFlavor_Links.htm" />
     <HelpKINode Title="DatabaseInstance.Links Property " Url="html/P_net_openstack_Providers_Rackspace_Objects_Databases_DatabaseInstance_Links.htm" />
-    <HelpKINode Title="Flavor.Links Property " Url="html/P_OpenStack_ContentDeliveryNetworks_v1_Flavor_Links.htm" />
     <HelpKINode Title="Flavor.Links Property " Url="html/P_net_openstack_Core_Domain_Flavor_Links.htm" />
+    <HelpKINode Title="Flavor.Links Property " Url="html/P_OpenStack_ContentDeliveryNetworks_v1_Flavor_Links.htm" />
     <HelpKINode Title="Policy.Links Property " Url="html/P_net_openstack_Providers_Rackspace_Objects_AutoScale_Policy_Links.htm" />
     <HelpKINode Title="Provider.Links Property " Url="html/P_OpenStack_ContentDeliveryNetworks_v1_Provider_Links.htm" />
     <HelpKINode Title="ScalingGroup.Links Property " Url="html/P_net_openstack_Providers_Rackspace_Objects_AutoScale_ScalingGroup_Links.htm" />
@@ -9285,8 +9285,8 @@
   <HelpKINode Title="UserAccessCache.UserAccessCache constructor" Url="html/M_net_openstack_Core_Caching_UserAccessCache__ctor.htm" />
   <HelpKINode Title="UserAgents property" Url="html/P_OpenStack_OpenStackNetConfigurationOptions_UserAgents.htm" />
   <HelpKINode Title="UserAuthenticationException class">
-    <HelpKINode Title="UserAuthenticationException Class" Url="html/T_OpenStack_UserAuthenticationException.htm" />
     <HelpKINode Title="UserAuthenticationException Class" Url="html/T_net_openstack_Core_Exceptions_UserAuthenticationException.htm" />
+    <HelpKINode Title="UserAuthenticationException Class" Url="html/T_OpenStack_UserAuthenticationException.htm" />
     <HelpKINode Title="about UserAuthenticationException class" Url="html/T_net_openstack_Core_Exceptions_UserAuthenticationException.htm" />
     <HelpKINode Title="about UserAuthenticationException class" Url="html/T_OpenStack_UserAuthenticationException.htm" />
     <HelpKINode Title="constructor" Url="html/M_net_openstack_Core_Exceptions_UserAuthenticationException__ctor.htm" />
@@ -9344,8 +9344,8 @@
   </HelpKINode>
   <HelpKINode Title="Username property">
     <HelpKINode Title="CloudIdentity.Username Property " Url="html/P_net_openstack_Core_Domain_CloudIdentity_Username.htm" />
-    <HelpKINode Title="NewUser.Username Property " Url="html/P_net_openstack_Core_Domain_NewUser_Username.htm" />
     <HelpKINode Title="PasswordCredential.Username Property " Url="html/P_net_openstack_Providers_Rackspace_Objects_Request_PasswordCredential_Username.htm" />
+    <HelpKINode Title="NewUser.Username Property " Url="html/P_net_openstack_Core_Domain_NewUser_Username.htm" />
     <HelpKINode Title="User.Username Property " Url="html/P_net_openstack_Core_Domain_User_Username.htm" />
     <HelpKINode Title="UserCredential.Username Property " Url="html/P_net_openstack_Core_Domain_UserCredential_Username.htm" />
   </HelpKINode>

@@ -4,19 +4,19 @@
 <span class="keyword">public</span> <span class="keyword">static</span> <span class="identifier">LaunchConfiguration</span> <span class="identifier">GetLaunchConfiguration</span>(
 	<span class="keyword">this</span> <span class="identifier">IAutoScaleService</span> <span class="parameter">service</span>,
 	<span class="identifier">ScalingGroupId</span> <span class="parameter">groupId</span>
-)</pre></div><div id="ID0EDCA_code_Div2" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve">&lt;<span class="identifier">ObsoleteAttribute</span>("These synchronous wrappers should not be used. For more information, see http://blogs.msdn.com/b/pfxteam/archive/2012/04/13/10293638.aspx.")&gt;
-&lt;<span class="identifier">ExtensionAttribute</span>&gt;
+)</pre></div><div id="ID0EDCA_code_Div2" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve">&lt;<span class="identifier">ExtensionAttribute</span>&gt;
+&lt;<span class="identifier">ObsoleteAttribute</span>("These synchronous wrappers should not be used. For more information, see http://blogs.msdn.com/b/pfxteam/archive/2012/04/13/10293638.aspx.")&gt;
 <span class="keyword">Public</span> <span class="keyword">Shared</span> <span class="keyword">Function</span> <span class="identifier">GetLaunchConfiguration</span> ( 
 	<span class="parameter">service</span> <span class="keyword">As</span> <span class="identifier">IAutoScaleService</span>,
 	<span class="parameter">groupId</span> <span class="keyword">As</span> <span class="identifier">ScalingGroupId</span>
 ) <span class="keyword">As</span> <span class="identifier">LaunchConfiguration</span></pre></div><div id="ID0EDCA_code_Div3" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">public</span>:
-[<span class="identifier">ObsoleteAttribute</span>(L"These synchronous wrappers should not be used. For more information, see http://blogs.msdn.com/b/pfxteam/archive/2012/04/13/10293638.aspx.")]
 [<span class="identifier">ExtensionAttribute</span>]
+[<span class="identifier">ObsoleteAttribute</span>(L"These synchronous wrappers should not be used. For more information, see http://blogs.msdn.com/b/pfxteam/archive/2012/04/13/10293638.aspx.")]
 <span class="keyword">static</span> <span class="identifier">LaunchConfiguration</span>^ <span class="identifier">GetLaunchConfiguration</span>(
 	<span class="identifier">IAutoScaleService</span>^ <span class="parameter">service</span>, 
 	<span class="identifier">ScalingGroupId</span>^ <span class="parameter">groupId</span>
-)</pre></div><div id="ID0EDCA_code_Div4" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve">[&lt;<span class="identifier">ObsoleteAttribute</span>("These synchronous wrappers should not be used. For more information, see http://blogs.msdn.com/b/pfxteam/archive/2012/04/13/10293638.aspx.")&gt;]
-[&lt;<span class="identifier">ExtensionAttribute</span>&gt;]
+)</pre></div><div id="ID0EDCA_code_Div4" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve">[&lt;<span class="identifier">ExtensionAttribute</span>&gt;]
+[&lt;<span class="identifier">ObsoleteAttribute</span>("These synchronous wrappers should not be used. For more information, see http://blogs.msdn.com/b/pfxteam/archive/2012/04/13/10293638.aspx.")&gt;]
 <span class="keyword">static</span> <span class="keyword">member</span> <span class="identifier">GetLaunchConfiguration</span> : 
         <span class="parameter">service</span> : <span class="identifier">IAutoScaleService</span> * 
         <span class="parameter">groupId</span> : <span class="identifier">ScalingGroupId</span> <span class="keyword">-&gt;</span> <span class="identifier">LaunchConfiguration</span> 
