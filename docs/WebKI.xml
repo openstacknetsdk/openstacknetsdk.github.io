@@ -557,8 +557,8 @@
   <HelpKINode Title="AvailabilityZone property">
     <HelpKINode Title="Server.AvailabilityZone Property " Url="html/P_OpenStack_Compute_v2_1_Server_AvailabilityZone.htm" />
     <HelpKINode Title="ServerCreateDefinition.AvailabilityZone Property " Url="html/P_OpenStack_Compute_v2_1_ServerCreateDefinition_AvailabilityZone.htm" />
-    <HelpKINode Title="Volume.AvailabilityZone Property " Url="html/P_net_openstack_Core_Domain_Volume_AvailabilityZone.htm" />
     <HelpKINode Title="Volume.AvailabilityZone Property " Url="html/P_OpenStack_Compute_v2_1_Volume_AvailabilityZone.htm" />
+    <HelpKINode Title="Volume.AvailabilityZone Property " Url="html/P_net_openstack_Core_Domain_Volume_AvailabilityZone.htm" />
     <HelpKINode Title="VolumeDefinition.AvailabilityZone Property " Url="html/P_OpenStack_Compute_v2_1_VolumeDefinition_AvailabilityZone.htm" />
   </HelpKINode>
   <HelpKINode Title="Available property">
@@ -708,6 +708,8 @@
   <HelpKINode Title="BuildListFloatingIPsRequest method" Url="html/M_OpenStack_Networking_v2_NetworkingApiBuilder_BuildListFloatingIPsRequest.htm" />
   <HelpKINode Title="BuildListPortsRequest method" Url="html/M_OpenStack_Networking_v2_NetworkingApiBuilder_BuildListPortsRequest.htm" />
   <HelpKINode Title="BuildListRoutersRequest method" Url="html/M_OpenStack_Networking_v2_NetworkingApiBuilder_BuildListRoutersRequest.htm" />
+  <HelpKINode Title="BuildListSecurityGroupRulesRequest method" Url="html/M_OpenStack_Networking_v2_NetworkingApiBuilder_BuildListSecurityGroupRulesRequest.htm" />
+  <HelpKINode Title="BuildListSecurityGroupsRequest method" Url="html/M_OpenStack_Networking_v2_NetworkingApiBuilder_BuildListSecurityGroupsRequest.htm" />
   <HelpKINode Title="BuildNearHostIP property" Url="html/P_OpenStack_Compute_v2_1_SchedulerHints_BuildNearHostIP.htm" />
   <HelpKINode Title="BuildUpdateFloatingIPRequest method" Url="html/M_OpenStack_Networking_v2_NetworkingApiBuilder_BuildUpdateFloatingIPRequest.htm" />
   <HelpKINode Title="BuildUpdateRouterRequest method" Url="html/M_OpenStack_Networking_v2_NetworkingApiBuilder_BuildUpdateRouterRequest.htm" />
@@ -952,8 +954,8 @@
   <HelpKINode Title="CIDR property">
     <HelpKINode Title="SchedulerHints.CIDR Property " Url="html/P_OpenStack_Compute_v2_1_SchedulerHints_CIDR.htm" />
     <HelpKINode Title="SecurityGroupRuleDefinition.CIDR Property " Url="html/P_OpenStack_Compute_v2_1_SecurityGroupRuleDefinition_CIDR.htm" />
-    <HelpKINode Title="SubnetCreateDefinition.CIDR Property " Url="html/P_OpenStack_Networking_v2_SubnetCreateDefinition_CIDR.htm" />
     <HelpKINode Title="SecurityGroupRule.CIDR Property " Url="html/P_OpenStack_Compute_v2_1_SecurityGroupRule_CIDR.htm" />
+    <HelpKINode Title="SubnetCreateDefinition.CIDR Property " Url="html/P_OpenStack_Networking_v2_SubnetCreateDefinition_CIDR.htm" />
   </HelpKINode>
   <HelpKINode Title="Cidr property" Url="html/P_net_openstack_Core_Domain_CloudNetwork_Cidr.htm" />
   <HelpKINode Title="CidrFormatException class">
@@ -1697,8 +1699,8 @@
     <HelpKINode Title="ComputeServiceExtensions_v2_1 Class" Url="html/T_OpenStack_Compute_v2_1_Operator_ComputeServiceExtensions_v2_1.htm" />
     <HelpKINode Title="about ComputeServiceExtensions_v2_1 class" Url="html/T_OpenStack_Synchronous_ComputeServiceExtensions_v2_1.htm" />
     <HelpKINode Title="about ComputeServiceExtensions_v2_1 class" Url="html/T_OpenStack_Compute_v2_1_Operator_ComputeServiceExtensions_v2_1.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_OpenStack_Compute_v2_1_Operator_ComputeServiceExtensions_v2_1.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_OpenStack_Synchronous_ComputeServiceExtensions_v2_1.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_OpenStack_Compute_v2_1_Operator_ComputeServiceExtensions_v2_1.htm" />
   </HelpKINode>
   <HelpKINode Title="ComputeServiceExtensions_v2_1.AssociateFloatingIPAddressAsync method" Url="html/M_OpenStack_Synchronous_ComputeServiceExtensions_v2_1_AssociateFloatingIPAddressAsync.htm" />
   <HelpKINode Title="ComputeServiceExtensions_v2_1.AttachVolume method" Url="html/M_OpenStack_Synchronous_ComputeServiceExtensions_v2_1_AttachVolume.htm" />
@@ -2032,8 +2034,8 @@
     <HelpKINode Title="NodeServiceEvent.Created Property " Url="html/P_net_openstack_Providers_Rackspace_Objects_LoadBalancers_NodeServiceEvent_Created.htm" />
     <HelpKINode Title="Notification.Created Property " Url="html/P_net_openstack_Providers_Rackspace_Objects_Monitoring_Notification_Created.htm" />
     <HelpKINode Title="NotificationPlan.Created Property " Url="html/P_net_openstack_Providers_Rackspace_Objects_Monitoring_NotificationPlan_Created.htm" />
-    <HelpKINode Title="Server.Created Property " Url="html/P_net_openstack_Core_Domain_Server_Created.htm" />
     <HelpKINode Title="Server.Created Property " Url="html/P_OpenStack_Compute_v2_1_Server_Created.htm" />
+    <HelpKINode Title="Server.Created Property " Url="html/P_net_openstack_Core_Domain_Server_Created.htm" />
     <HelpKINode Title="ServerImage.Created Property " Url="html/P_net_openstack_Core_Domain_ServerImage_Created.htm" />
     <HelpKINode Title="Volume.Created Property " Url="html/P_OpenStack_Compute_v2_1_Volume_Created.htm" />
     <HelpKINode Title="VolumeSnapshot.Created Property " Url="html/P_OpenStack_Compute_v2_1_VolumeSnapshot_Created.htm" />
@@ -2618,6 +2620,7 @@
     <HelpKINode Title="CloudBlockStorageProvider.DescribeVolumeType Method " Url="html/M_net_openstack_Providers_Rackspace_CloudBlockStorageProvider_DescribeVolumeType.htm" />
     <HelpKINode Title="IBlockStorageProvider.DescribeVolumeType Method " Url="html/M_net_openstack_Core_Providers_IBlockStorageProvider_DescribeVolumeType.htm" />
   </HelpKINode>
+  <HelpKINode Title="Description field" Url="html/F_OpenStack_Networking_v2_Layer3_SecurityGroup_Description.htm" />
   <HelpKINode Title="Description property">
     <HelpKINode Title="AlarmExample.Description Property " Url="html/P_net_openstack_Providers_Rackspace_Objects_Monitoring_AlarmExample_Description.htm" />
     <HelpKINode Title="AlarmExampleField.Description Property " Url="html/P_net_openstack_Providers_Rackspace_Objects_Monitoring_AlarmExampleField_Description.htm" />
@@ -2695,6 +2698,8 @@
   </HelpKINode>
   <HelpKINode Title="DHCPOptions property" Url="html/P_OpenStack_Networking_v2_PortCreateDefinition_DHCPOptions.htm" />
   <HelpKINode Title="DifferentHost property" Url="html/P_OpenStack_Compute_v2_1_SchedulerHints_DifferentHost.htm" />
+  <HelpKINode Title="Direction field" Url="html/F_OpenStack_Networking_v2_Layer3_SecurityGroupRule_Direction.htm" />
+  <HelpKINode Title="Direction property" Url="html/P_OpenStack_Networking_v2_Layer3_SecurityGroupRuleListOptions_Direction.htm" />
   <HelpKINode Title="DirectoryName property" Url="html/P_net_openstack_Providers_Rackspace_Objects_Monitoring_FilesystemInformation_DirectoryName.htm" />
   <HelpKINode Title="DisableCDNOnContainer method">
     <HelpKINode Title="CloudFilesProvider.DisableCDNOnContainer Method " Url="html/M_net_openstack_Providers_Rackspace_CloudFilesProvider_DisableCDNOnContainer.htm" />
@@ -2731,16 +2736,16 @@
   <HelpKINode Title="DiskCheckDetails.Target property" Url="html/P_net_openstack_Providers_Rackspace_Objects_Monitoring_DiskCheckDetails_Target.htm" />
   <HelpKINode Title="DiskConfig property">
     <HelpKINode Title="NewServer.DiskConfig Property " Url="html/P_net_openstack_Core_Domain_NewServer_DiskConfig.htm" />
-    <HelpKINode Title="Server.DiskConfig Property " Url="html/P_OpenStack_Compute_v2_1_Server_DiskConfig.htm" />
     <HelpKINode Title="Server.DiskConfig Property " Url="html/P_net_openstack_Core_Domain_Server_DiskConfig.htm" />
+    <HelpKINode Title="Server.DiskConfig Property " Url="html/P_OpenStack_Compute_v2_1_Server_DiskConfig.htm" />
     <HelpKINode Title="ServerCreateDefinition.DiskConfig Property " Url="html/P_OpenStack_Compute_v2_1_ServerCreateDefinition_DiskConfig.htm" />
     <HelpKINode Title="ServerImage.DiskConfig Property " Url="html/P_net_openstack_Core_Domain_ServerImage_DiskConfig.htm" />
   </HelpKINode>
   <HelpKINode Title="DiskConfiguration class">
     <HelpKINode Title="DiskConfiguration Class" Url="html/T_net_openstack_Core_Domain_DiskConfiguration.htm" />
     <HelpKINode Title="DiskConfiguration Class" Url="html/T_OpenStack_Compute_v2_1_DiskConfiguration.htm" />
-    <HelpKINode Title="about DiskConfiguration class" Url="html/T_OpenStack_Compute_v2_1_DiskConfiguration.htm" />
     <HelpKINode Title="about DiskConfiguration class" Url="html/T_net_openstack_Core_Domain_DiskConfiguration.htm" />
+    <HelpKINode Title="about DiskConfiguration class" Url="html/T_OpenStack_Compute_v2_1_DiskConfiguration.htm" />
     <HelpKINode Title="constructor" Url="html/M_OpenStack_Compute_v2_1_DiskConfiguration__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_net_openstack_Core_Domain_DiskConfiguration.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_net_openstack_Core_Domain_DiskConfiguration.htm" />
@@ -3267,6 +3272,7 @@
     <HelpKINode Title="ServiceOperationFailedException.Errors Property " Url="html/P_OpenStack_ContentDeliveryNetworks_v1_ServiceOperationFailedException_Errors.htm" />
   </HelpKINode>
   <HelpKINode Title="Etag field" Url="html/F_net_openstack_Providers_Rackspace_CloudFilesProvider_Etag.htm" />
+  <HelpKINode Title="Ethertype field" Url="html/F_OpenStack_Networking_v2_Layer3_SecurityGroupRule_Ethertype.htm" />
   <HelpKINode Title="EvacuateAsync method" Url="html/M_OpenStack_Compute_v2_1_Operator_ServerExtensions_EvacuateAsync.htm" />
   <HelpKINode Title="EvacuateServerAsync method" Url="html/M_OpenStack_Compute_v2_1_Operator_ComputeServiceExtensions_v2_1_EvacuateServerAsync.htm" />
   <HelpKINode Title="EvacuateServerRequest class">
@@ -3456,24 +3462,24 @@
   </HelpKINode>
   <HelpKINode Title="Flags property" Url="html/P_net_openstack_Providers_Rackspace_Objects_Monitoring_NetworkInterfaceInformation_Flags.htm" />
   <HelpKINode Title="Flavor class">
-    <HelpKINode Title="Flavor Class" Url="html/T_OpenStack_Compute_v2_1_Flavor.htm" />
     <HelpKINode Title="Flavor Class" Url="html/T_OpenStack_ContentDeliveryNetworks_v1_Flavor.htm" />
+    <HelpKINode Title="Flavor Class" Url="html/T_OpenStack_Compute_v2_1_Flavor.htm" />
     <HelpKINode Title="Flavor Class" Url="html/T_net_openstack_Core_Domain_Flavor.htm" />
-    <HelpKINode Title="about Flavor class" Url="html/T_OpenStack_ContentDeliveryNetworks_v1_Flavor.htm" />
     <HelpKINode Title="about Flavor class" Url="html/T_net_openstack_Core_Domain_Flavor.htm" />
+    <HelpKINode Title="about Flavor class" Url="html/T_OpenStack_ContentDeliveryNetworks_v1_Flavor.htm" />
     <HelpKINode Title="about Flavor class" Url="html/T_OpenStack_Compute_v2_1_Flavor.htm" />
-    <HelpKINode Title="constructor" Url="html/M_OpenStack_ContentDeliveryNetworks_v1_Flavor__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/M_net_openstack_Core_Domain_Flavor__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/M_OpenStack_Compute_v2_1_Flavor__ctor.htm" />
+    <HelpKINode Title="constructor" Url="html/M_OpenStack_ContentDeliveryNetworks_v1_Flavor__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_OpenStack_Compute_v2_1_Flavor.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_OpenStack_Compute_v2_1_Flavor.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_net_openstack_Core_Domain_Flavor.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_OpenStack_ContentDeliveryNetworks_v1_Flavor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_net_openstack_Core_Domain_Flavor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_OpenStack_Compute_v2_1_Flavor.htm" />
   </HelpKINode>
   <HelpKINode Title="Flavor property">
     <HelpKINode Title="DatabaseInstance.Flavor Property " Url="html/P_net_openstack_Providers_Rackspace_Objects_Databases_DatabaseInstance_Flavor.htm" />
-    <HelpKINode Title="Server.Flavor Property " Url="html/P_OpenStack_Compute_v2_1_Server_Flavor.htm" />
     <HelpKINode Title="Server.Flavor Property " Url="html/P_net_openstack_Core_Domain_Server_Flavor.htm" />
+    <HelpKINode Title="Server.Flavor Property " Url="html/P_OpenStack_Compute_v2_1_Server_Flavor.htm" />
   </HelpKINode>
   <HelpKINode Title="Flavor.BandwidthCap property" Url="html/P_OpenStack_Compute_v2_1_Flavor_BandwidthCap.htm" />
   <HelpKINode Title="Flavor.DiskSize property" Url="html/P_OpenStack_Compute_v2_1_Flavor_DiskSize.htm" />
@@ -3522,12 +3528,12 @@
   </HelpKINode>
   <HelpKINode Title="FlavorExtensions_v2_1.GetFlavor method" Url="html/M_OpenStack_Synchronous_FlavorExtensions_v2_1_GetFlavor.htm" />
   <HelpKINode Title="FlavorId class">
-    <HelpKINode Title="FlavorId Class" Url="html/T_net_openstack_Core_Domain_FlavorId.htm" />
     <HelpKINode Title="FlavorId Class" Url="html/T_net_openstack_Providers_Rackspace_Objects_Databases_FlavorId.htm" />
-    <HelpKINode Title="about FlavorId class" Url="html/T_net_openstack_Providers_Rackspace_Objects_Databases_FlavorId.htm" />
+    <HelpKINode Title="FlavorId Class" Url="html/T_net_openstack_Core_Domain_FlavorId.htm" />
     <HelpKINode Title="about FlavorId class" Url="html/T_net_openstack_Core_Domain_FlavorId.htm" />
-    <HelpKINode Title="constructor" Url="html/M_net_openstack_Core_Domain_FlavorId__ctor.htm" />
+    <HelpKINode Title="about FlavorId class" Url="html/T_net_openstack_Providers_Rackspace_Objects_Databases_FlavorId.htm" />
     <HelpKINode Title="constructor" Url="html/M_net_openstack_Providers_Rackspace_Objects_Databases_FlavorId__ctor.htm" />
+    <HelpKINode Title="constructor" Url="html/M_net_openstack_Core_Domain_FlavorId__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_net_openstack_Core_Domain_FlavorId.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_net_openstack_Providers_Rackspace_Objects_Databases_FlavorId.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_net_openstack_Providers_Rackspace_Objects_Databases_FlavorId.htm" />
@@ -4593,7 +4599,6 @@
     <HelpKINode Title="methods" Url="html/Methods_T_net_openstack_Core_Caching_ICache_1.htm" />
   </HelpKINode>
   <HelpKINode Title="ICache&lt;T&gt;.Get method" Url="html/M_net_openstack_Core_Caching_ICache_1_Get.htm" />
-  <HelpKINode Title="ICMP field" Url="html/F_OpenStack_Compute_v2_1_IPProtocol_ICMP.htm" />
   <HelpKINode Title="IComputeProvider interface">
     <HelpKINode Title="IComputeProvider Interface" Url="html/T_net_openstack_Core_Providers_IComputeProvider.htm" />
     <HelpKINode Title="about IComputeProvider interface" Url="html/T_net_openstack_Core_Providers_IComputeProvider.htm" />
@@ -4665,6 +4670,10 @@
   <HelpKINode Title="IContentDeliveryNetworkService.UpdateServiceAsync method" Url="html/M_OpenStack_ContentDeliveryNetworks_v1_IContentDeliveryNetworkService_UpdateServiceAsync.htm" />
   <HelpKINode Title="IContentDeliveryNetworkService.WaitForServiceDeletedAsync method" Url="html/M_OpenStack_ContentDeliveryNetworks_v1_IContentDeliveryNetworkService_WaitForServiceDeletedAsync.htm" />
   <HelpKINode Title="IContentDeliveryNetworkService.WaitForServiceDeployedAsync method" Url="html/M_OpenStack_ContentDeliveryNetworks_v1_IContentDeliveryNetworkService_WaitForServiceDeployedAsync.htm" />
+  <HelpKINode Title="Id field">
+    <HelpKINode Title="SecurityGroup.Id Field" Url="html/F_OpenStack_Networking_v2_Layer3_SecurityGroup_Id.htm" />
+    <HelpKINode Title="SecurityGroupRule.Id Field" Url="html/F_OpenStack_Networking_v2_Layer3_SecurityGroupRule_Id.htm" />
+  </HelpKINode>
   <HelpKINode Title="Id property">
     <HelpKINode Title="ActiveServer.Id Property " Url="html/P_net_openstack_Providers_Rackspace_Objects_AutoScale_ActiveServer_Id.htm" />
     <HelpKINode Title="Agent.Id Property " Url="html/P_net_openstack_Providers_Rackspace_Objects_Monitoring_Agent_Id.htm" />
@@ -4693,8 +4702,8 @@
     <HelpKINode Title="Entity.Id Property " Url="html/P_net_openstack_Providers_Rackspace_Objects_Monitoring_Entity_Id.htm" />
     <HelpKINode Title="ExportedDomain.Id Property " Url="html/P_net_openstack_Providers_Rackspace_Objects_Dns_ExportedDomain_Id.htm" />
     <HelpKINode Title="ExtendedEndpoint.Id Property " Url="html/P_net_openstack_Core_Domain_ExtendedEndpoint_Id.htm" />
-    <HelpKINode Title="Flavor.Id Property " Url="html/P_OpenStack_ContentDeliveryNetworks_v1_Flavor_Id.htm" />
     <HelpKINode Title="Flavor.Id Property " Url="html/P_net_openstack_Core_Domain_Flavor_Id.htm" />
+    <HelpKINode Title="Flavor.Id Property " Url="html/P_OpenStack_ContentDeliveryNetworks_v1_Flavor_Id.htm" />
     <HelpKINode Title="FlavorReference.Id Property " Url="html/P_OpenStack_Compute_v2_1_FlavorReference_Id.htm" />
     <HelpKINode Title="FloatingIP.Id Property " Url="html/P_OpenStack_Networking_v2_Layer3_FloatingIP_Id.htm" />
     <HelpKINode Title="IdentityToken.Id Property " Url="html/P_net_openstack_Core_Domain_IdentityToken_Id.htm" />
@@ -4737,8 +4746,8 @@
     <HelpKINode Title="User.Id Property " Url="html/P_net_openstack_Core_Domain_User_Id.htm" />
     <HelpKINode Title="UserDetails.Id Property " Url="html/P_net_openstack_Core_Domain_UserDetails_Id.htm" />
     <HelpKINode Title="VirtualInterface.Id Property " Url="html/P_net_openstack_Core_Domain_VirtualInterface_Id.htm" />
-    <HelpKINode Title="Volume.Id Property " Url="html/P_OpenStack_Compute_v2_1_Volume_Id.htm" />
     <HelpKINode Title="Volume.Id Property " Url="html/P_net_openstack_Core_Domain_Volume_Id.htm" />
+    <HelpKINode Title="Volume.Id Property " Url="html/P_OpenStack_Compute_v2_1_Volume_Id.htm" />
     <HelpKINode Title="VolumeSnapshot.Id Property " Url="html/P_OpenStack_Compute_v2_1_VolumeSnapshot_Id.htm" />
     <HelpKINode Title="VolumeType.Id Property " Url="html/P_net_openstack_Core_Domain_VolumeType_Id.htm" />
     <HelpKINode Title="Webhook.Id Property " Url="html/P_net_openstack_Providers_Rackspace_Objects_AutoScale_Webhook_Id.htm" />
@@ -5109,8 +5118,8 @@
   <HelpKINode Title="ImageSummary.ImageSummary constructor" Url="html/M_OpenStack_Compute_v2_1_ImageSummary__ctor.htm" />
   <HelpKINode Title="ImageSummary.Name property" Url="html/P_OpenStack_Compute_v2_1_ImageSummary_Name.htm" />
   <HelpKINode Title="ImageType class">
-    <HelpKINode Title="ImageType Class" Url="html/T_net_openstack_Core_Domain_ImageType.htm" />
     <HelpKINode Title="ImageType Class" Url="html/T_OpenStack_Compute_v2_1_ImageType.htm" />
+    <HelpKINode Title="ImageType Class" Url="html/T_net_openstack_Core_Domain_ImageType.htm" />
     <HelpKINode Title="about ImageType class" Url="html/T_OpenStack_Compute_v2_1_ImageType.htm" />
     <HelpKINode Title="about ImageType class" Url="html/T_net_openstack_Core_Domain_ImageType.htm" />
     <HelpKINode Title="constructor" Url="html/M_OpenStack_Compute_v2_1_ImageType__ctor.htm" />
@@ -5404,13 +5413,17 @@
   <HelpKINode Title="IPage&lt;T&gt;.GetNextPageAsync method" Url="html/M_OpenStack_IPage_1_GetNextPageAsync.htm" />
   <HelpKINode Title="IPage&lt;T&gt;.HasNextPage property" Url="html/P_OpenStack_IPage_1_HasNextPage.htm" />
   <HelpKINode Title="IPProtocol class">
+    <HelpKINode Title="IPProtocol Class" Url="html/T_OpenStack_Networking_v2_IPProtocol.htm" />
     <HelpKINode Title="IPProtocol Class" Url="html/T_OpenStack_Compute_v2_1_IPProtocol.htm" />
     <HelpKINode Title="about IPProtocol class" Url="html/T_OpenStack_Compute_v2_1_IPProtocol.htm" />
-    <HelpKINode Title="fields" Url="html/Fields_T_OpenStack_Compute_v2_1_IPProtocol.htm" />
+    <HelpKINode Title="about IPProtocol class" Url="html/T_OpenStack_Networking_v2_IPProtocol.htm" />
+    <HelpKINode Title="constructor" Url="html/M_OpenStack_Networking_v2_IPProtocol__ctor.htm" />
+    <HelpKINode Title="constructor" Url="html/M_OpenStack_Compute_v2_1_IPProtocol__ctor.htm" />
   </HelpKINode>
-  <HelpKINode Title="IPProtocol.ICMP field" Url="html/F_OpenStack_Compute_v2_1_IPProtocol_ICMP.htm" />
-  <HelpKINode Title="IPProtocol.TCP field" Url="html/F_OpenStack_Compute_v2_1_IPProtocol_TCP.htm" />
-  <HelpKINode Title="IPProtocol.UDP field" Url="html/F_OpenStack_Compute_v2_1_IPProtocol_UDP.htm" />
+  <HelpKINode Title="IPProtocol.IPProtocol constructor">
+    <HelpKINode Title="IPProtocol Constructor " Url="html/M_OpenStack_Compute_v2_1_IPProtocol__ctor.htm" />
+    <HelpKINode Title="IPProtocol Constructor " Url="html/M_OpenStack_Networking_v2_IPProtocol__ctor.htm" />
+  </HelpKINode>
   <HelpKINode Title="IPv4 enumeration member" Url="html/T_OpenStack_Networking_IPVersion.htm" />
   <HelpKINode Title="IPv4 property" Url="html/P_net_openstack_Providers_Rackspace_Objects_Monitoring_TargetResolverType_IPv4.htm" />
   <HelpKINode Title="IPv4Address property">
@@ -5660,8 +5673,8 @@
     <HelpKINode Title="ActiveServer.Links Property " Url="html/P_net_openstack_Providers_Rackspace_Objects_AutoScale_ActiveServer_Links.htm" />
     <HelpKINode Title="DatabaseFlavor.Links Property " Url="html/P_net_openstack_Providers_Rackspace_Objects_Databases_DatabaseFlavor_Links.htm" />
     <HelpKINode Title="DatabaseInstance.Links Property " Url="html/P_net_openstack_Providers_Rackspace_Objects_Databases_DatabaseInstance_Links.htm" />
-    <HelpKINode Title="Flavor.Links Property " Url="html/P_net_openstack_Core_Domain_Flavor_Links.htm" />
     <HelpKINode Title="Flavor.Links Property " Url="html/P_OpenStack_ContentDeliveryNetworks_v1_Flavor_Links.htm" />
+    <HelpKINode Title="Flavor.Links Property " Url="html/P_net_openstack_Core_Domain_Flavor_Links.htm" />
     <HelpKINode Title="Policy.Links Property " Url="html/P_net_openstack_Providers_Rackspace_Objects_AutoScale_Policy_Links.htm" />
     <HelpKINode Title="Provider.Links Property " Url="html/P_OpenStack_ContentDeliveryNetworks_v1_Provider_Links.htm" />
     <HelpKINode Title="ScalingGroup.Links Property " Url="html/P_net_openstack_Providers_Rackspace_Objects_AutoScale_ScalingGroup_Links.htm" />
@@ -6008,8 +6021,20 @@
     <HelpKINode Title="CloudAutoScaleProvider.ListScalingGroupsAsync Method " Url="html/M_net_openstack_Providers_Rackspace_CloudAutoScaleProvider_ListScalingGroupsAsync.htm" />
     <HelpKINode Title="IAutoScaleService.ListScalingGroupsAsync Method " Url="html/M_net_openstack_Providers_Rackspace_IAutoScaleService_ListScalingGroupsAsync.htm" />
   </HelpKINode>
-  <HelpKINode Title="ListSecurityGroups method" Url="html/M_OpenStack_Synchronous_ComputeServiceExtensions_v2_1_ListSecurityGroups.htm" />
-  <HelpKINode Title="ListSecurityGroupsAsync method" Url="html/M_OpenStack_Compute_v2_1_ComputeService_ListSecurityGroupsAsync.htm" />
+  <HelpKINode Title="ListSecurityGroupRules method" Url="html/M_OpenStack_Networking_v2_Layer3_Synchronous_NetworkingService_Layer3_Synchronous_Extensions_ListSecurityGroupRules.htm" />
+  <HelpKINode Title="ListSecurityGroupRulesAsync method" Url="html/M_OpenStack_Networking_v2_Layer3_NetworkingService_Layer3_Extensions_ListSecurityGroupRulesAsync.htm" />
+  <HelpKINode Title="ListSecurityGroupRulesAsync(Of T) method" Url="html/M_OpenStack_Networking_v2_NetworkingApiBuilder_ListSecurityGroupRulesAsync__1.htm" />
+  <HelpKINode Title="ListSecurityGroupRulesAsync&lt;T&gt; method" Url="html/M_OpenStack_Networking_v2_NetworkingApiBuilder_ListSecurityGroupRulesAsync__1.htm" />
+  <HelpKINode Title="ListSecurityGroups method">
+    <HelpKINode Title="ComputeServiceExtensions_v2_1.ListSecurityGroups Method " Url="html/M_OpenStack_Synchronous_ComputeServiceExtensions_v2_1_ListSecurityGroups.htm" />
+    <HelpKINode Title="NetworkingService_Layer3_Synchronous_Extensions.ListSecurityGroups Method " Url="html/M_OpenStack_Networking_v2_Layer3_Synchronous_NetworkingService_Layer3_Synchronous_Extensions_ListSecurityGroups.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ListSecurityGroupsAsync method">
+    <HelpKINode Title="ComputeService.ListSecurityGroupsAsync Method " Url="html/M_OpenStack_Compute_v2_1_ComputeService_ListSecurityGroupsAsync.htm" />
+    <HelpKINode Title="NetworkingService_Layer3_Extensions.ListSecurityGroupsAsync Method " Url="html/M_OpenStack_Networking_v2_Layer3_NetworkingService_Layer3_Extensions_ListSecurityGroupsAsync.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ListSecurityGroupsAsync(Of T) method" Url="html/M_OpenStack_Networking_v2_NetworkingApiBuilder_ListSecurityGroupsAsync__1.htm" />
+  <HelpKINode Title="ListSecurityGroupsAsync&lt;T&gt; method" Url="html/M_OpenStack_Networking_v2_NetworkingApiBuilder_ListSecurityGroupsAsync__1.htm" />
   <HelpKINode Title="ListServerActions method" Url="html/M_OpenStack_Synchronous_ComputeServiceExtensions_v2_1_ListServerActions.htm" />
   <HelpKINode Title="ListServerActionSummariesAsync method" Url="html/M_OpenStack_Compute_v2_1_ComputeService_ListServerActionSummariesAsync.htm" />
   <HelpKINode Title="ListServerAddresses method" Url="html/M_OpenStack_Synchronous_ComputeServiceExtensions_v2_1_ListServerAddresses.htm" />
@@ -6464,6 +6489,7 @@
   <HelpKINode Title="Maximum property" Url="html/P_OpenStack_Compute_v2_1_RateLimit_Maximum.htm" />
   <HelpKINode Title="MaximumTransmissionUnit property" Url="html/P_net_openstack_Providers_Rackspace_Objects_Monitoring_NetworkInterfaceInformation_MaximumTransmissionUnit.htm" />
   <HelpKINode Title="MaxLargeFileBatchThreshold field" Url="html/F_net_openstack_Providers_Rackspace_CloudFilesProvider_MaxLargeFileBatchThreshold.htm" />
+  <HelpKINode Title="MaxPort property" Url="html/P_OpenStack_Networking_v2_Layer3_SecurityGroupRule_MaxPort.htm" />
   <HelpKINode Title="Members property" Url="html/P_OpenStack_Compute_v2_1_ServerGroup_Members.htm" />
   <HelpKINode Title="Memory property">
     <HelpKINode Title="DatabaseFlavor.Memory Property " Url="html/P_net_openstack_Providers_Rackspace_Objects_Databases_DatabaseFlavor_Memory.htm" />
@@ -6652,6 +6678,7 @@
     <HelpKINode Title="FlavorListOptions.MininumMemorySize Property " Url="html/P_OpenStack_Compute_v2_1_FlavorListOptions_MininumMemorySize.htm" />
     <HelpKINode Title="ImageListOptions.MininumMemorySize Property " Url="html/P_OpenStack_Compute_v2_1_ImageListOptions_MininumMemorySize.htm" />
   </HelpKINode>
+  <HelpKINode Title="MinPort property" Url="html/P_OpenStack_Networking_v2_Layer3_SecurityGroupRule_MinPort.htm" />
   <HelpKINode Title="MinRAM property" Url="html/P_net_openstack_Core_Domain_ServerImage_MinRAM.htm" />
   <HelpKINode Title="Minute property" Url="html/P_net_openstack_Providers_Rackspace_Objects_Dns_DnsRateLimitUnit_Minute.htm" />
   <HelpKINode Title="Model property" Url="html/P_net_openstack_Providers_Rackspace_Objects_Monitoring_CpuInformation_Model.htm" />
@@ -6796,6 +6823,7 @@
     <HelpKINode Title="properties" Url="html/Properties_T_net_openstack_Providers_Rackspace_Objects_Monitoring_MysqlBannerCheckDetails.htm" />
   </HelpKINode>
   <HelpKINode Title="MysqlBannerCheckDetails.MysqlBannerCheckDetails constructor" Url="html/M_net_openstack_Providers_Rackspace_Objects_Monitoring_MysqlBannerCheckDetails__ctor.htm" />
+  <HelpKINode Title="Name field" Url="html/F_OpenStack_Networking_v2_Layer3_SecurityGroup_Name.htm" />
   <HelpKINode Title="Name property">
     <HelpKINode Title="AlarmExampleField.Name Property " Url="html/P_net_openstack_Providers_Rackspace_Objects_Monitoring_AlarmExampleField_Name.htm" />
     <HelpKINode Title="Backup.Name Property " Url="html/P_net_openstack_Providers_Rackspace_Objects_Databases_Backup_Name.htm" />
@@ -6854,6 +6882,7 @@
     <HelpKINode Title="RouterListOptions.Name Property " Url="html/P_OpenStack_Networking_v2_Layer3_RouterListOptions_Name.htm" />
     <HelpKINode Title="RouterUpdateDefinition.Name Property " Url="html/P_OpenStack_Networking_v2_Layer3_RouterUpdateDefinition_Name.htm" />
     <HelpKINode Title="SecurityGroupDefinition.Name Property " Url="html/P_OpenStack_Compute_v2_1_SecurityGroupDefinition_Name.htm" />
+    <HelpKINode Title="SecurityGroupListOptions.Name Property " Url="html/P_OpenStack_Networking_v2_Layer3_SecurityGroupListOptions_Name.htm" />
     <HelpKINode Title="SecurityGroupReference.Name Property " Url="html/P_OpenStack_Compute_v2_1_SecurityGroupReference_Name.htm" />
     <HelpKINode Title="ServerActionSummary.Name Property " Url="html/P_OpenStack_Compute_v2_1_ServerActionSummary_Name.htm" />
     <HelpKINode Title="ServerArgument.Name Property " Url="html/P_net_openstack_Providers_Rackspace_Objects_AutoScale_ServerArgument_Name.htm" />
@@ -7386,17 +7415,17 @@
     <HelpKINode Title="NetworkDefinition Class" Url="html/T_OpenStack_Networking_v2_Operator_NetworkDefinition.htm" />
     <HelpKINode Title="about NetworkDefinition class" Url="html/T_OpenStack_Networking_v2_NetworkDefinition.htm" />
     <HelpKINode Title="about NetworkDefinition class" Url="html/T_OpenStack_Networking_v2_Operator_NetworkDefinition.htm" />
-    <HelpKINode Title="constructor" Url="html/M_OpenStack_Networking_v2_Operator_NetworkDefinition__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/M_OpenStack_Networking_v2_NetworkDefinition__ctor.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_OpenStack_Networking_v2_NetworkDefinition.htm" />
+    <HelpKINode Title="constructor" Url="html/M_OpenStack_Networking_v2_Operator_NetworkDefinition__ctor.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_OpenStack_Networking_v2_Operator_NetworkDefinition.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_OpenStack_Networking_v2_NetworkDefinition.htm" />
   </HelpKINode>
   <HelpKINode Title="NetworkDefinition.IsExternal property" Url="html/P_OpenStack_Networking_v2_Operator_NetworkDefinition_IsExternal.htm" />
   <HelpKINode Title="NetworkDefinition.IsUp property" Url="html/P_OpenStack_Networking_v2_NetworkDefinition_IsUp.htm" />
   <HelpKINode Title="NetworkDefinition.Name property" Url="html/P_OpenStack_Networking_v2_NetworkDefinition_Name.htm" />
   <HelpKINode Title="NetworkDefinition.NetworkDefinition constructor">
-    <HelpKINode Title="NetworkDefinition Constructor " Url="html/M_OpenStack_Networking_v2_Operator_NetworkDefinition__ctor.htm" />
     <HelpKINode Title="NetworkDefinition Constructor " Url="html/M_OpenStack_Networking_v2_NetworkDefinition__ctor.htm" />
+    <HelpKINode Title="NetworkDefinition Constructor " Url="html/M_OpenStack_Networking_v2_Operator_NetworkDefinition__ctor.htm" />
   </HelpKINode>
   <HelpKINode Title="NetworkId class">
     <HelpKINode Title="NetworkId Class" Url="html/T_net_openstack_Core_Domain_NetworkId.htm" />
@@ -7439,6 +7468,8 @@
   <HelpKINode Title="NetworkingApiBuilder.BuildListFloatingIPsRequest method" Url="html/M_OpenStack_Networking_v2_NetworkingApiBuilder_BuildListFloatingIPsRequest.htm" />
   <HelpKINode Title="NetworkingApiBuilder.BuildListPortsRequest method" Url="html/M_OpenStack_Networking_v2_NetworkingApiBuilder_BuildListPortsRequest.htm" />
   <HelpKINode Title="NetworkingApiBuilder.BuildListRoutersRequest method" Url="html/M_OpenStack_Networking_v2_NetworkingApiBuilder_BuildListRoutersRequest.htm" />
+  <HelpKINode Title="NetworkingApiBuilder.BuildListSecurityGroupRulesRequest method" Url="html/M_OpenStack_Networking_v2_NetworkingApiBuilder_BuildListSecurityGroupRulesRequest.htm" />
+  <HelpKINode Title="NetworkingApiBuilder.BuildListSecurityGroupsRequest method" Url="html/M_OpenStack_Networking_v2_NetworkingApiBuilder_BuildListSecurityGroupsRequest.htm" />
   <HelpKINode Title="NetworkingApiBuilder.BuildUpdateFloatingIPRequest method" Url="html/M_OpenStack_Networking_v2_NetworkingApiBuilder_BuildUpdateFloatingIPRequest.htm" />
   <HelpKINode Title="NetworkingApiBuilder.BuildUpdateRouterRequest method" Url="html/M_OpenStack_Networking_v2_NetworkingApiBuilder_BuildUpdateRouterRequest.htm" />
   <HelpKINode Title="NetworkingApiBuilder.CreateFloatingIPAsync(Of T) method" Url="html/M_OpenStack_Networking_v2_NetworkingApiBuilder_CreateFloatingIPAsync__1.htm" />
@@ -7472,6 +7503,10 @@
   <HelpKINode Title="NetworkingApiBuilder.ListPortsAsync&lt;T&gt; method" Url="html/M_OpenStack_Networking_v2_NetworkingApiBuilder_ListPortsAsync__1.htm" />
   <HelpKINode Title="NetworkingApiBuilder.ListRoutersAsync(Of T) method" Url="html/M_OpenStack_Networking_v2_NetworkingApiBuilder_ListRoutersAsync__1.htm" />
   <HelpKINode Title="NetworkingApiBuilder.ListRoutersAsync&lt;T&gt; method" Url="html/M_OpenStack_Networking_v2_NetworkingApiBuilder_ListRoutersAsync__1.htm" />
+  <HelpKINode Title="NetworkingApiBuilder.ListSecurityGroupRulesAsync(Of T) method" Url="html/M_OpenStack_Networking_v2_NetworkingApiBuilder_ListSecurityGroupRulesAsync__1.htm" />
+  <HelpKINode Title="NetworkingApiBuilder.ListSecurityGroupRulesAsync&lt;T&gt; method" Url="html/M_OpenStack_Networking_v2_NetworkingApiBuilder_ListSecurityGroupRulesAsync__1.htm" />
+  <HelpKINode Title="NetworkingApiBuilder.ListSecurityGroupsAsync(Of T) method" Url="html/M_OpenStack_Networking_v2_NetworkingApiBuilder_ListSecurityGroupsAsync__1.htm" />
+  <HelpKINode Title="NetworkingApiBuilder.ListSecurityGroupsAsync&lt;T&gt; method" Url="html/M_OpenStack_Networking_v2_NetworkingApiBuilder_ListSecurityGroupsAsync__1.htm" />
   <HelpKINode Title="NetworkingApiBuilder.ListSubnetsAsync method" Url="html/M_OpenStack_Networking_v2_NetworkingApiBuilder_ListSubnetsAsync.htm" />
   <HelpKINode Title="NetworkingApiBuilder.NetworkingApiBuilder constructor" Url="html/M_OpenStack_Networking_v2_NetworkingApiBuilder__ctor.htm" />
   <HelpKINode Title="NetworkingApiBuilder.UpdateFloatingIPAsync(Of T) method" Url="html/M_OpenStack_Networking_v2_NetworkingApiBuilder_UpdateFloatingIPAsync__1.htm" />
@@ -7546,6 +7581,8 @@
   <HelpKINode Title="NetworkingService_Layer3_Extensions.GetRouterAsync method" Url="html/M_OpenStack_Networking_v2_Layer3_NetworkingService_Layer3_Extensions_GetRouterAsync.htm" />
   <HelpKINode Title="NetworkingService_Layer3_Extensions.ListFloatingIPsAsync method" Url="html/M_OpenStack_Networking_v2_Layer3_NetworkingService_Layer3_Extensions_ListFloatingIPsAsync.htm" />
   <HelpKINode Title="NetworkingService_Layer3_Extensions.ListRoutersAsync method" Url="html/M_OpenStack_Networking_v2_Layer3_NetworkingService_Layer3_Extensions_ListRoutersAsync.htm" />
+  <HelpKINode Title="NetworkingService_Layer3_Extensions.ListSecurityGroupRulesAsync method" Url="html/M_OpenStack_Networking_v2_Layer3_NetworkingService_Layer3_Extensions_ListSecurityGroupRulesAsync.htm" />
+  <HelpKINode Title="NetworkingService_Layer3_Extensions.ListSecurityGroupsAsync method" Url="html/M_OpenStack_Networking_v2_Layer3_NetworkingService_Layer3_Extensions_ListSecurityGroupsAsync.htm" />
   <HelpKINode Title="NetworkingService_Layer3_Extensions.UpdateFloatingIPAsync method" Url="html/M_OpenStack_Networking_v2_Layer3_NetworkingService_Layer3_Extensions_UpdateFloatingIPAsync.htm" />
   <HelpKINode Title="NetworkingService_Layer3_Extensions.UpdateRouterAsync method" Url="html/M_OpenStack_Networking_v2_Layer3_NetworkingService_Layer3_Extensions_UpdateRouterAsync.htm" />
   <HelpKINode Title="NetworkingService_Layer3_Synchronous_Extensions class">
@@ -7565,6 +7602,8 @@
   <HelpKINode Title="NetworkingService_Layer3_Synchronous_Extensions.GetRouter method" Url="html/M_OpenStack_Networking_v2_Layer3_Synchronous_NetworkingService_Layer3_Synchronous_Extensions_GetRouter.htm" />
   <HelpKINode Title="NetworkingService_Layer3_Synchronous_Extensions.ListFloatingIPs method" Url="html/M_OpenStack_Networking_v2_Layer3_Synchronous_NetworkingService_Layer3_Synchronous_Extensions_ListFloatingIPs.htm" />
   <HelpKINode Title="NetworkingService_Layer3_Synchronous_Extensions.ListRouters method" Url="html/M_OpenStack_Networking_v2_Layer3_Synchronous_NetworkingService_Layer3_Synchronous_Extensions_ListRouters.htm" />
+  <HelpKINode Title="NetworkingService_Layer3_Synchronous_Extensions.ListSecurityGroupRules method" Url="html/M_OpenStack_Networking_v2_Layer3_Synchronous_NetworkingService_Layer3_Synchronous_Extensions_ListSecurityGroupRules.htm" />
+  <HelpKINode Title="NetworkingService_Layer3_Synchronous_Extensions.ListSecurityGroups method" Url="html/M_OpenStack_Networking_v2_Layer3_Synchronous_NetworkingService_Layer3_Synchronous_Extensions_ListSecurityGroups.htm" />
   <HelpKINode Title="NetworkingService_Layer3_Synchronous_Extensions.UpdateFloatingIP method" Url="html/M_OpenStack_Networking_v2_Layer3_Synchronous_NetworkingService_Layer3_Synchronous_Extensions_UpdateFloatingIP.htm" />
   <HelpKINode Title="NetworkingService_Layer3_Synchronous_Extensions.UpdateRouter method" Url="html/M_OpenStack_Networking_v2_Layer3_Synchronous_NetworkingService_Layer3_Synchronous_Extensions_UpdateRouter.htm" />
   <HelpKINode Title="NetworkInterfaceInformation class">
@@ -8072,6 +8111,7 @@
   <HelpKINode Title="OpenStack.Networking.v2.AllowedAddress class" Url="html/T_OpenStack_Networking_v2_AllowedAddress.htm" />
   <HelpKINode Title="OpenStack.Networking.v2.HostRoute class" Url="html/T_OpenStack_Networking_v2_HostRoute.htm" />
   <HelpKINode Title="OpenStack.Networking.v2.IPAddressAssociation class" Url="html/T_OpenStack_Networking_v2_IPAddressAssociation.htm" />
+  <HelpKINode Title="OpenStack.Networking.v2.IPProtocol class" Url="html/T_OpenStack_Networking_v2_IPProtocol.htm" />
   <HelpKINode Title="OpenStack.Networking.v2.Layer3 namespace" Url="html/N_OpenStack_Networking_v2_Layer3.htm" />
   <HelpKINode Title="OpenStack.Networking.v2.Layer3.ExternalGateway class" Url="html/T_OpenStack_Networking_v2_Layer3_ExternalGateway.htm" />
   <HelpKINode Title="OpenStack.Networking.v2.Layer3.ExternalGatewayDefinition class" Url="html/T_OpenStack_Networking_v2_Layer3_ExternalGatewayDefinition.htm" />
@@ -8086,6 +8126,10 @@
   <HelpKINode Title="OpenStack.Networking.v2.Layer3.RouterListOptions class" Url="html/T_OpenStack_Networking_v2_Layer3_RouterListOptions.htm" />
   <HelpKINode Title="OpenStack.Networking.v2.Layer3.RouterStatus class" Url="html/T_OpenStack_Networking_v2_Layer3_RouterStatus.htm" />
   <HelpKINode Title="OpenStack.Networking.v2.Layer3.RouterUpdateDefinition class" Url="html/T_OpenStack_Networking_v2_Layer3_RouterUpdateDefinition.htm" />
+  <HelpKINode Title="OpenStack.Networking.v2.Layer3.SecurityGroup class" Url="html/T_OpenStack_Networking_v2_Layer3_SecurityGroup.htm" />
+  <HelpKINode Title="OpenStack.Networking.v2.Layer3.SecurityGroupListOptions class" Url="html/T_OpenStack_Networking_v2_Layer3_SecurityGroupListOptions.htm" />
+  <HelpKINode Title="OpenStack.Networking.v2.Layer3.SecurityGroupRule class" Url="html/T_OpenStack_Networking_v2_Layer3_SecurityGroupRule.htm" />
+  <HelpKINode Title="OpenStack.Networking.v2.Layer3.SecurityGroupRuleListOptions class" Url="html/T_OpenStack_Networking_v2_Layer3_SecurityGroupRuleListOptions.htm" />
   <HelpKINode Title="OpenStack.Networking.v2.Layer3.Synchronous namespace" Url="html/N_OpenStack_Networking_v2_Layer3_Synchronous.htm" />
   <HelpKINode Title="OpenStack.Networking.v2.Layer3.Synchronous.FloatingIPExtensions class" Url="html/T_OpenStack_Networking_v2_Layer3_Synchronous_FloatingIPExtensions.htm" />
   <HelpKINode Title="OpenStack.Networking.v2.Layer3.Synchronous.NetworkingService_Layer3_Synchronous_Extensions class" Url="html/T_OpenStack_Networking_v2_Layer3_Synchronous_NetworkingService_Layer3_Synchronous_Extensions.htm" />
@@ -8102,9 +8146,13 @@
   <HelpKINode Title="OpenStack.Networking.v2.PortListOptions class" Url="html/T_OpenStack_Networking_v2_PortListOptions.htm" />
   <HelpKINode Title="OpenStack.Networking.v2.PortStatus class" Url="html/T_OpenStack_Networking_v2_PortStatus.htm" />
   <HelpKINode Title="OpenStack.Networking.v2.PortUpdateDefinition class" Url="html/T_OpenStack_Networking_v2_PortUpdateDefinition.htm" />
+  <HelpKINode Title="OpenStack.Networking.v2.Serialization namespace" Url="html/N_OpenStack_Networking_v2_Serialization.htm" />
+  <HelpKINode Title="OpenStack.Networking.v2.Serialization.SecurityGroupCollection class" Url="html/T_OpenStack_Networking_v2_Serialization_SecurityGroupCollection.htm" />
+  <HelpKINode Title="OpenStack.Networking.v2.Serialization.SecurityGroupRuleCollection class" Url="html/T_OpenStack_Networking_v2_Serialization_SecurityGroupRuleCollection.htm" />
   <HelpKINode Title="OpenStack.Networking.v2.Subnet class" Url="html/T_OpenStack_Networking_v2_Subnet.htm" />
   <HelpKINode Title="OpenStack.Networking.v2.SubnetCreateDefinition class" Url="html/T_OpenStack_Networking_v2_SubnetCreateDefinition.htm" />
   <HelpKINode Title="OpenStack.Networking.v2.SubnetUpdateDefinition class" Url="html/T_OpenStack_Networking_v2_SubnetUpdateDefinition.htm" />
+  <HelpKINode Title="OpenStack.Networking.v2.TrafficDirection class" Url="html/T_OpenStack_Networking_v2_TrafficDirection.htm" />
   <HelpKINode Title="OpenStack.OpenStackNet class" Url="html/T_OpenStack_OpenStackNet.htm" />
   <HelpKINode Title="OpenStack.OpenStackNet.Tracing class" Url="html/T_OpenStack_OpenStackNet_Tracing.htm" />
   <HelpKINode Title="OpenStack.OpenStackNetConfigurationOptions class" Url="html/T_OpenStack_OpenStackNetConfigurationOptions.htm" />
@@ -8234,8 +8282,8 @@
   <HelpKINode Title="Path enumeration member" Url="html/T_net_openstack_Core_UriPart.htm" />
   <HelpKINode Title="Path property">
     <HelpKINode Title="ExtractArchiveError.Path Property " Url="html/P_net_openstack_Providers_Rackspace_Objects_Response_ExtractArchiveError_Path.htm" />
-    <HelpKINode Title="Personality.Path Property " Url="html/P_net_openstack_Core_Domain_Personality_Path.htm" />
     <HelpKINode Title="Personality.Path Property " Url="html/P_OpenStack_Compute_v2_1_Personality_Path.htm" />
+    <HelpKINode Title="Personality.Path Property " Url="html/P_net_openstack_Core_Domain_Personality_Path.htm" />
     <HelpKINode Title="WebServerHealthMonitor.Path Property " Url="html/P_net_openstack_Providers_Rackspace_Objects_LoadBalancers_WebServerHealthMonitor_Path.htm" />
   </HelpKINode>
   <HelpKINode Title="PathSegment enumeration member" Url="html/T_net_openstack_Core_UriPart.htm" />
@@ -8273,8 +8321,8 @@
     <HelpKINode Title="about Personality class" Url="html/T_net_openstack_Core_Domain_Personality.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_net_openstack_Core_Domain_Personality__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_OpenStack_Compute_v2_1_Personality__ctor.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_net_openstack_Core_Domain_Personality.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_OpenStack_Compute_v2_1_Personality.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_net_openstack_Core_Domain_Personality.htm" />
   </HelpKINode>
   <HelpKINode Title="Personality property">
     <HelpKINode Title="ServerArgument.Personality Property " Url="html/P_net_openstack_Providers_Rackspace_Objects_AutoScale_ServerArgument_Personality.htm" />
@@ -8567,6 +8615,7 @@
     <HelpKINode Title="GenericCheckDetails.Properties Property " Url="html/P_net_openstack_Providers_Rackspace_Objects_Monitoring_GenericCheckDetails_Properties.htm" />
     <HelpKINode Title="GenericNotificationDetails.Properties Property " Url="html/P_net_openstack_Providers_Rackspace_Objects_Monitoring_GenericNotificationDetails_Properties.htm" />
   </HelpKINode>
+  <HelpKINode Title="Protocol field" Url="html/F_OpenStack_Networking_v2_Layer3_SecurityGroupRule_Protocol.htm" />
   <HelpKINode Title="Protocol property">
     <HelpKINode Title="SecurityGroupRule.Protocol Property " Url="html/P_OpenStack_Compute_v2_1_SecurityGroupRule_Protocol.htm" />
     <HelpKINode Title="SecurityGroupRuleDefinition.Protocol Property " Url="html/P_OpenStack_Compute_v2_1_SecurityGroupRuleDefinition_Protocol.htm" />
@@ -8950,6 +8999,7 @@
     <HelpKINode Title="RateLimit.Remaining Property " Url="html/P_OpenStack_Compute_v2_1_RateLimit_Remaining.htm" />
   </HelpKINode>
   <HelpKINode Title="Remote property" Url="html/P_net_openstack_Providers_Rackspace_Objects_Monitoring_CheckTypeType_Remote.htm" />
+  <HelpKINode Title="RemoteCIDR field" Url="html/F_OpenStack_Networking_v2_Layer3_SecurityGroupRule_RemoteCIDR.htm" />
   <HelpKINode Title="RemoteConsole class">
     <HelpKINode Title="RemoteConsole Class" Url="html/T_OpenStack_Compute_v2_1_RemoteConsole.htm" />
     <HelpKINode Title="about RemoteConsole class" Url="html/T_OpenStack_Compute_v2_1_RemoteConsole.htm" />
@@ -8967,6 +9017,7 @@
   <HelpKINode Title="RemoteConsoleType.RemoteConsoleType constructor" Url="html/M_OpenStack_Compute_v2_1_RemoteConsoleType__ctor.htm" />
   <HelpKINode Title="RemoteDns property" Url="html/P_net_openstack_Providers_Rackspace_Objects_Monitoring_CheckTypeId_RemoteDns.htm" />
   <HelpKINode Title="RemoteFtpBanner property" Url="html/P_net_openstack_Providers_Rackspace_Objects_Monitoring_CheckTypeId_RemoteFtpBanner.htm" />
+  <HelpKINode Title="RemoteGroupId field" Url="html/F_OpenStack_Networking_v2_Layer3_SecurityGroupRule_RemoteGroupId.htm" />
   <HelpKINode Title="RemoteHttp property" Url="html/P_net_openstack_Providers_Rackspace_Objects_Monitoring_CheckTypeId_RemoteHttp.htm" />
   <HelpKINode Title="RemoteImapBanner property" Url="html/P_net_openstack_Providers_Rackspace_Objects_Monitoring_CheckTypeId_RemoteImapBanner.htm" />
   <HelpKINode Title="RemoteMssqlBanner property" Url="html/P_net_openstack_Providers_Rackspace_Objects_Monitoring_CheckTypeId_RemoteMssqlBanner.htm" />
@@ -9529,18 +9580,35 @@
   <HelpKINode Title="SecurePort property" Url="html/P_net_openstack_Providers_Rackspace_Objects_LoadBalancers_LoadBalancerSslConfiguration_SecurePort.htm" />
   <HelpKINode Title="SecureTrafficOnly property" Url="html/P_net_openstack_Providers_Rackspace_Objects_LoadBalancers_LoadBalancerSslConfiguration_SecureTrafficOnly.htm" />
   <HelpKINode Title="SecurityGroup class">
+    <HelpKINode Title="SecurityGroup Class" Url="html/T_OpenStack_Networking_v2_Layer3_SecurityGroup.htm" />
     <HelpKINode Title="SecurityGroup Class" Url="html/T_OpenStack_Compute_v2_1_SecurityGroup.htm" />
     <HelpKINode Title="about SecurityGroup class" Url="html/T_OpenStack_Compute_v2_1_SecurityGroup.htm" />
+    <HelpKINode Title="about SecurityGroup class" Url="html/T_OpenStack_Networking_v2_Layer3_SecurityGroup.htm" />
+    <HelpKINode Title="constructor" Url="html/M_OpenStack_Networking_v2_Layer3_SecurityGroup__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/M_OpenStack_Compute_v2_1_SecurityGroup__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_OpenStack_Networking_v2_Layer3_SecurityGroup.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_OpenStack_Compute_v2_1_SecurityGroup.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_OpenStack_Compute_v2_1_SecurityGroup.htm" />
   </HelpKINode>
   <HelpKINode Title="SecurityGroup.AddRuleAsync method" Url="html/M_OpenStack_Compute_v2_1_SecurityGroup_AddRuleAsync.htm" />
+  <HelpKINode Title="SecurityGroup.Description field" Url="html/F_OpenStack_Networking_v2_Layer3_SecurityGroup_Description.htm" />
   <HelpKINode Title="SecurityGroup.Description property" Url="html/P_OpenStack_Compute_v2_1_SecurityGroup_Description.htm" />
+  <HelpKINode Title="SecurityGroup.Id field" Url="html/F_OpenStack_Networking_v2_Layer3_SecurityGroup_Id.htm" />
   <HelpKINode Title="SecurityGroup.Id property" Url="html/P_OpenStack_Compute_v2_1_SecurityGroup_Id.htm" />
+  <HelpKINode Title="SecurityGroup.Name field" Url="html/F_OpenStack_Networking_v2_Layer3_SecurityGroup_Name.htm" />
   <HelpKINode Title="SecurityGroup.Rules property" Url="html/P_OpenStack_Compute_v2_1_SecurityGroup_Rules.htm" />
-  <HelpKINode Title="SecurityGroup.SecurityGroup constructor" Url="html/M_OpenStack_Compute_v2_1_SecurityGroup__ctor.htm" />
+  <HelpKINode Title="SecurityGroup.SecurityGroup constructor">
+    <HelpKINode Title="SecurityGroup Constructor " Url="html/M_OpenStack_Networking_v2_Layer3_SecurityGroup__ctor.htm" />
+    <HelpKINode Title="SecurityGroup Constructor " Url="html/M_OpenStack_Compute_v2_1_SecurityGroup__ctor.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SecurityGroup.SecurityGroupRules field" Url="html/F_OpenStack_Networking_v2_Layer3_SecurityGroup_SecurityGroupRules.htm" />
   <HelpKINode Title="SecurityGroup.UpdateAsync method" Url="html/M_OpenStack_Compute_v2_1_SecurityGroup_UpdateAsync.htm" />
+  <HelpKINode Title="SecurityGroupCollection class">
+    <HelpKINode Title="SecurityGroupCollection Class" Url="html/T_OpenStack_Networking_v2_Serialization_SecurityGroupCollection.htm" />
+    <HelpKINode Title="about SecurityGroupCollection class" Url="html/T_OpenStack_Networking_v2_Serialization_SecurityGroupCollection.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_OpenStack_Networking_v2_Serialization_SecurityGroupCollection__ctor.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SecurityGroupCollection.SecurityGroupCollection constructor" Url="html/Overload_OpenStack_Networking_v2_Serialization_SecurityGroupCollection__ctor.htm" />
   <HelpKINode Title="SecurityGroupDefinition class">
     <HelpKINode Title="SecurityGroupDefinition Class" Url="html/T_OpenStack_Compute_v2_1_SecurityGroupDefinition.htm" />
     <HelpKINode Title="about SecurityGroupDefinition class" Url="html/T_OpenStack_Compute_v2_1_SecurityGroupDefinition.htm" />
@@ -9559,6 +9627,15 @@
   <HelpKINode Title="SecurityGroupExtensions_v2_1.Delete method" Url="html/Overload_OpenStack_Synchronous_SecurityGroupExtensions_v2_1_Delete.htm" />
   <HelpKINode Title="SecurityGroupExtensions_v2_1.GetSecurityGroup method" Url="html/M_OpenStack_Synchronous_SecurityGroupExtensions_v2_1_GetSecurityGroup.htm" />
   <HelpKINode Title="SecurityGroupExtensions_v2_1.Update method" Url="html/M_OpenStack_Synchronous_SecurityGroupExtensions_v2_1_Update.htm" />
+  <HelpKINode Title="SecurityGroupId field" Url="html/F_OpenStack_Networking_v2_Layer3_SecurityGroupRule_SecurityGroupId.htm" />
+  <HelpKINode Title="SecurityGroupListOptions class">
+    <HelpKINode Title="SecurityGroupListOptions Class" Url="html/T_OpenStack_Networking_v2_Layer3_SecurityGroupListOptions.htm" />
+    <HelpKINode Title="about SecurityGroupListOptions class" Url="html/T_OpenStack_Networking_v2_Layer3_SecurityGroupListOptions.htm" />
+    <HelpKINode Title="constructor" Url="html/M_OpenStack_Networking_v2_Layer3_SecurityGroupListOptions__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_OpenStack_Networking_v2_Layer3_SecurityGroupListOptions.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SecurityGroupListOptions.Name property" Url="html/P_OpenStack_Networking_v2_Layer3_SecurityGroupListOptions_Name.htm" />
+  <HelpKINode Title="SecurityGroupListOptions.SecurityGroupListOptions constructor" Url="html/M_OpenStack_Networking_v2_Layer3_SecurityGroupListOptions__ctor.htm" />
   <HelpKINode Title="SecurityGroupMax property" Url="html/P_OpenStack_Compute_v2_1_ResourceLimits_SecurityGroupMax.htm" />
   <HelpKINode Title="SecurityGroupReference class">
     <HelpKINode Title="SecurityGroupReference Class" Url="html/T_OpenStack_Compute_v2_1_SecurityGroupReference.htm" />
@@ -9572,21 +9649,44 @@
   <HelpKINode Title="SecurityGroupReference.Name property" Url="html/P_OpenStack_Compute_v2_1_SecurityGroupReference_Name.htm" />
   <HelpKINode Title="SecurityGroupReference.SecurityGroupReference constructor" Url="html/M_OpenStack_Compute_v2_1_SecurityGroupReference__ctor.htm" />
   <HelpKINode Title="SecurityGroupRule class">
+    <HelpKINode Title="SecurityGroupRule Class" Url="html/T_OpenStack_Networking_v2_Layer3_SecurityGroupRule.htm" />
     <HelpKINode Title="SecurityGroupRule Class" Url="html/T_OpenStack_Compute_v2_1_SecurityGroupRule.htm" />
     <HelpKINode Title="about SecurityGroupRule class" Url="html/T_OpenStack_Compute_v2_1_SecurityGroupRule.htm" />
+    <HelpKINode Title="about SecurityGroupRule class" Url="html/T_OpenStack_Networking_v2_Layer3_SecurityGroupRule.htm" />
     <HelpKINode Title="constructor" Url="html/M_OpenStack_Compute_v2_1_SecurityGroupRule__ctor.htm" />
+    <HelpKINode Title="constructor" Url="html/M_OpenStack_Networking_v2_Layer3_SecurityGroupRule__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_OpenStack_Networking_v2_Layer3_SecurityGroupRule.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_OpenStack_Compute_v2_1_SecurityGroupRule.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_OpenStack_Compute_v2_1_SecurityGroupRule.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_OpenStack_Networking_v2_Layer3_SecurityGroupRule.htm" />
   </HelpKINode>
   <HelpKINode Title="SecurityGroupRule.CIDR property" Url="html/P_OpenStack_Compute_v2_1_SecurityGroupRule_CIDR.htm" />
   <HelpKINode Title="SecurityGroupRule.DeleteAsync method" Url="html/M_OpenStack_Compute_v2_1_SecurityGroupRule_DeleteAsync.htm" />
+  <HelpKINode Title="SecurityGroupRule.Direction field" Url="html/F_OpenStack_Networking_v2_Layer3_SecurityGroupRule_Direction.htm" />
+  <HelpKINode Title="SecurityGroupRule.Ethertype field" Url="html/F_OpenStack_Networking_v2_Layer3_SecurityGroupRule_Ethertype.htm" />
   <HelpKINode Title="SecurityGroupRule.FromPort property" Url="html/P_OpenStack_Compute_v2_1_SecurityGroupRule_FromPort.htm" />
   <HelpKINode Title="SecurityGroupRule.GroupId property" Url="html/P_OpenStack_Compute_v2_1_SecurityGroupRule_GroupId.htm" />
+  <HelpKINode Title="SecurityGroupRule.Id field" Url="html/F_OpenStack_Networking_v2_Layer3_SecurityGroupRule_Id.htm" />
   <HelpKINode Title="SecurityGroupRule.Id property" Url="html/P_OpenStack_Compute_v2_1_SecurityGroupRule_Id.htm" />
+  <HelpKINode Title="SecurityGroupRule.MaxPort property" Url="html/P_OpenStack_Networking_v2_Layer3_SecurityGroupRule_MaxPort.htm" />
+  <HelpKINode Title="SecurityGroupRule.MinPort property" Url="html/P_OpenStack_Networking_v2_Layer3_SecurityGroupRule_MinPort.htm" />
+  <HelpKINode Title="SecurityGroupRule.Protocol field" Url="html/F_OpenStack_Networking_v2_Layer3_SecurityGroupRule_Protocol.htm" />
   <HelpKINode Title="SecurityGroupRule.Protocol property" Url="html/P_OpenStack_Compute_v2_1_SecurityGroupRule_Protocol.htm" />
-  <HelpKINode Title="SecurityGroupRule.SecurityGroupRule constructor" Url="html/M_OpenStack_Compute_v2_1_SecurityGroupRule__ctor.htm" />
+  <HelpKINode Title="SecurityGroupRule.RemoteCIDR field" Url="html/F_OpenStack_Networking_v2_Layer3_SecurityGroupRule_RemoteCIDR.htm" />
+  <HelpKINode Title="SecurityGroupRule.RemoteGroupId field" Url="html/F_OpenStack_Networking_v2_Layer3_SecurityGroupRule_RemoteGroupId.htm" />
+  <HelpKINode Title="SecurityGroupRule.SecurityGroupId field" Url="html/F_OpenStack_Networking_v2_Layer3_SecurityGroupRule_SecurityGroupId.htm" />
+  <HelpKINode Title="SecurityGroupRule.SecurityGroupRule constructor">
+    <HelpKINode Title="SecurityGroupRule Constructor " Url="html/M_OpenStack_Compute_v2_1_SecurityGroupRule__ctor.htm" />
+    <HelpKINode Title="SecurityGroupRule Constructor " Url="html/M_OpenStack_Networking_v2_Layer3_SecurityGroupRule__ctor.htm" />
+  </HelpKINode>
   <HelpKINode Title="SecurityGroupRule.SourceGroupId property" Url="html/P_OpenStack_Compute_v2_1_SecurityGroupRule_SourceGroupId.htm" />
   <HelpKINode Title="SecurityGroupRule.ToPort property" Url="html/P_OpenStack_Compute_v2_1_SecurityGroupRule_ToPort.htm" />
+  <HelpKINode Title="SecurityGroupRuleCollection class">
+    <HelpKINode Title="SecurityGroupRuleCollection Class" Url="html/T_OpenStack_Networking_v2_Serialization_SecurityGroupRuleCollection.htm" />
+    <HelpKINode Title="about SecurityGroupRuleCollection class" Url="html/T_OpenStack_Networking_v2_Serialization_SecurityGroupRuleCollection.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_OpenStack_Networking_v2_Serialization_SecurityGroupRuleCollection__ctor.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SecurityGroupRuleCollection.SecurityGroupRuleCollection constructor" Url="html/Overload_OpenStack_Networking_v2_Serialization_SecurityGroupRuleCollection__ctor.htm" />
   <HelpKINode Title="SecurityGroupRuleDefinition class">
     <HelpKINode Title="SecurityGroupRuleDefinition Class" Url="html/T_OpenStack_Compute_v2_1_SecurityGroupRuleDefinition.htm" />
     <HelpKINode Title="about SecurityGroupRuleDefinition class" Url="html/T_OpenStack_Compute_v2_1_SecurityGroupRuleDefinition.htm" />
@@ -9600,6 +9700,15 @@
   <HelpKINode Title="SecurityGroupRuleDefinition.SecurityGroupRuleDefinition constructor" Url="html/M_OpenStack_Compute_v2_1_SecurityGroupRuleDefinition__ctor.htm" />
   <HelpKINode Title="SecurityGroupRuleDefinition.SourceGroupId property" Url="html/P_OpenStack_Compute_v2_1_SecurityGroupRuleDefinition_SourceGroupId.htm" />
   <HelpKINode Title="SecurityGroupRuleDefinition.ToPort property" Url="html/P_OpenStack_Compute_v2_1_SecurityGroupRuleDefinition_ToPort.htm" />
+  <HelpKINode Title="SecurityGroupRuleListOptions class">
+    <HelpKINode Title="SecurityGroupRuleListOptions Class" Url="html/T_OpenStack_Networking_v2_Layer3_SecurityGroupRuleListOptions.htm" />
+    <HelpKINode Title="about SecurityGroupRuleListOptions class" Url="html/T_OpenStack_Networking_v2_Layer3_SecurityGroupRuleListOptions.htm" />
+    <HelpKINode Title="constructor" Url="html/M_OpenStack_Networking_v2_Layer3_SecurityGroupRuleListOptions__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_OpenStack_Networking_v2_Layer3_SecurityGroupRuleListOptions.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SecurityGroupRuleListOptions.Direction property" Url="html/P_OpenStack_Networking_v2_Layer3_SecurityGroupRuleListOptions_Direction.htm" />
+  <HelpKINode Title="SecurityGroupRuleListOptions.SecurityGroupRuleListOptions constructor" Url="html/M_OpenStack_Networking_v2_Layer3_SecurityGroupRuleListOptions__ctor.htm" />
+  <HelpKINode Title="SecurityGroupRules field" Url="html/F_OpenStack_Networking_v2_Layer3_SecurityGroup_SecurityGroupRules.htm" />
   <HelpKINode Title="SecurityGroupRules property" Url="html/P_OpenStack_Compute_v2_1_Operator_ServiceQuotas_SecurityGroupRules.htm" />
   <HelpKINode Title="SecurityGroupRulesMax property" Url="html/P_OpenStack_Compute_v2_1_ResourceLimits_SecurityGroupRulesMax.htm" />
   <HelpKINode Title="SecurityGroups property">
@@ -9631,14 +9740,14 @@
   <HelpKINode Title="Server class">
     <HelpKINode Title="Server Class" Url="html/T_OpenStack_Compute_v2_1_Server.htm" />
     <HelpKINode Title="Server Class" Url="html/T_net_openstack_Core_Domain_Server.htm" />
-    <HelpKINode Title="about Server class" Url="html/T_net_openstack_Core_Domain_Server.htm" />
     <HelpKINode Title="about Server class" Url="html/T_OpenStack_Compute_v2_1_Server.htm" />
+    <HelpKINode Title="about Server class" Url="html/T_net_openstack_Core_Domain_Server.htm" />
     <HelpKINode Title="constructor" Url="html/M_net_openstack_Core_Domain_Server__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/M_OpenStack_Compute_v2_1_Server__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_OpenStack_Compute_v2_1_Server.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_net_openstack_Core_Domain_Server.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_net_openstack_Core_Domain_Server.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_OpenStack_Compute_v2_1_Server.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_net_openstack_Core_Domain_Server.htm" />
   </HelpKINode>
   <HelpKINode Title="Server property">
     <HelpKINode Title="Image.Server Property " Url="html/P_OpenStack_Compute_v2_1_Image_Server.htm" />
@@ -9658,8 +9767,8 @@
   <HelpKINode Title="Server.AttachVolumeAsync method" Url="html/M_OpenStack_Compute_v2_1_Server_AttachVolumeAsync.htm" />
   <HelpKINode Title="Server.AvailabilityZone property" Url="html/P_OpenStack_Compute_v2_1_Server_AvailabilityZone.htm" />
   <HelpKINode Title="Server.Created property">
-    <HelpKINode Title="Server.Created Property " Url="html/P_OpenStack_Compute_v2_1_Server_Created.htm" />
     <HelpKINode Title="Server.Created Property " Url="html/P_net_openstack_Core_Domain_Server_Created.htm" />
+    <HelpKINode Title="Server.Created Property " Url="html/P_OpenStack_Compute_v2_1_Server_Created.htm" />
   </HelpKINode>
   <HelpKINode Title="Server.CreateVirtualInterface method" Url="html/M_net_openstack_Core_Domain_Server_CreateVirtualInterface.htm" />
   <HelpKINode Title="Server.Delete method" Url="html/M_net_openstack_Core_Domain_Server_Delete.htm" />
@@ -9669,12 +9778,12 @@
   <HelpKINode Title="Server.DeleteVirtualInterface method" Url="html/M_net_openstack_Core_Domain_Server_DeleteVirtualInterface.htm" />
   <HelpKINode Title="Server.DisassociateFloatingIPAsync method" Url="html/M_OpenStack_Compute_v2_1_Server_DisassociateFloatingIPAsync.htm" />
   <HelpKINode Title="Server.DiskConfig property">
-    <HelpKINode Title="Server.DiskConfig Property " Url="html/P_net_openstack_Core_Domain_Server_DiskConfig.htm" />
     <HelpKINode Title="Server.DiskConfig Property " Url="html/P_OpenStack_Compute_v2_1_Server_DiskConfig.htm" />
+    <HelpKINode Title="Server.DiskConfig Property " Url="html/P_net_openstack_Core_Domain_Server_DiskConfig.htm" />
   </HelpKINode>
   <HelpKINode Title="Server.Flavor property">
-    <HelpKINode Title="Server.Flavor Property " Url="html/P_net_openstack_Core_Domain_Server_Flavor.htm" />
     <HelpKINode Title="Server.Flavor Property " Url="html/P_OpenStack_Compute_v2_1_Server_Flavor.htm" />
+    <HelpKINode Title="Server.Flavor Property " Url="html/P_net_openstack_Core_Domain_Server_Flavor.htm" />
   </HelpKINode>
   <HelpKINode Title="Server.GetMetadata method" Url="html/M_net_openstack_Core_Domain_Server_GetMetadata.htm" />
   <HelpKINode Title="Server.GetVolumes method" Url="html/M_net_openstack_Core_Domain_Server_GetVolumes.htm" />
@@ -9696,27 +9805,27 @@
   <HelpKINode Title="Server.ListVirtualInterfaces method" Url="html/M_net_openstack_Core_Domain_Server_ListVirtualInterfaces.htm" />
   <HelpKINode Title="Server.Metadata property" Url="html/P_OpenStack_Compute_v2_1_Server_Metadata.htm" />
   <HelpKINode Title="Server.PowerState property">
-    <HelpKINode Title="Server.PowerState Property " Url="html/P_OpenStack_Compute_v2_1_Server_PowerState.htm" />
     <HelpKINode Title="Server.PowerState Property " Url="html/P_net_openstack_Core_Domain_Server_PowerState.htm" />
+    <HelpKINode Title="Server.PowerState Property " Url="html/P_OpenStack_Compute_v2_1_Server_PowerState.htm" />
   </HelpKINode>
   <HelpKINode Title="Server.Progress property">
-    <HelpKINode Title="Server.Progress Property " Url="html/P_net_openstack_Core_Domain_Server_Progress.htm" />
     <HelpKINode Title="Server.Progress Property " Url="html/P_OpenStack_Compute_v2_1_Server_Progress.htm" />
+    <HelpKINode Title="Server.Progress Property " Url="html/P_net_openstack_Core_Domain_Server_Progress.htm" />
   </HelpKINode>
   <HelpKINode Title="Server.SecurityGroups property" Url="html/P_OpenStack_Compute_v2_1_Server_SecurityGroups.htm" />
   <HelpKINode Title="Server.Server constructor">
-    <HelpKINode Title="Server Constructor " Url="html/M_net_openstack_Core_Domain_Server__ctor.htm" />
     <HelpKINode Title="Server Constructor " Url="html/M_OpenStack_Compute_v2_1_Server__ctor.htm" />
+    <HelpKINode Title="Server Constructor " Url="html/M_net_openstack_Core_Domain_Server__ctor.htm" />
   </HelpKINode>
   <HelpKINode Title="Server.SetMetadata method" Url="html/M_net_openstack_Core_Domain_Server_SetMetadata.htm" />
   <HelpKINode Title="Server.Snapshot method" Url="html/M_net_openstack_Core_Domain_Server_Snapshot.htm" />
   <HelpKINode Title="Server.Status property">
-    <HelpKINode Title="Server.Status Property " Url="html/P_net_openstack_Core_Domain_Server_Status.htm" />
     <HelpKINode Title="Server.Status Property " Url="html/P_OpenStack_Compute_v2_1_Server_Status.htm" />
+    <HelpKINode Title="Server.Status Property " Url="html/P_net_openstack_Core_Domain_Server_Status.htm" />
   </HelpKINode>
   <HelpKINode Title="Server.TaskState property">
-    <HelpKINode Title="Server.TaskState Property " Url="html/P_OpenStack_Compute_v2_1_Server_TaskState.htm" />
     <HelpKINode Title="Server.TaskState Property " Url="html/P_net_openstack_Core_Domain_Server_TaskState.htm" />
+    <HelpKINode Title="Server.TaskState Property " Url="html/P_OpenStack_Compute_v2_1_Server_TaskState.htm" />
   </HelpKINode>
   <HelpKINode Title="Server.TenantId property" Url="html/P_net_openstack_Core_Domain_Server_TenantId.htm" />
   <HelpKINode Title="Server.UpdateAsync method" Url="html/M_OpenStack_Compute_v2_1_Server_UpdateAsync.htm" />
@@ -10163,8 +10272,8 @@
     <HelpKINode Title="constructor" Url="html/M_net_openstack_Core_Domain_ServerVolume__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/M_OpenStack_Compute_v2_1_ServerVolume__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_OpenStack_Compute_v2_1_ServerVolume.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_net_openstack_Core_Domain_ServerVolume.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_OpenStack_Compute_v2_1_ServerVolume.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_net_openstack_Core_Domain_ServerVolume.htm" />
   </HelpKINode>
   <HelpKINode Title="ServerVolume.Device property" Url="html/P_net_openstack_Core_Domain_ServerVolume_Device.htm" />
   <HelpKINode Title="ServerVolume.DeviceName property" Url="html/P_OpenStack_Compute_v2_1_ServerVolume_DeviceName.htm" />
@@ -10174,8 +10283,8 @@
     <HelpKINode Title="ServerVolume.ServerId Property " Url="html/P_net_openstack_Core_Domain_ServerVolume_ServerId.htm" />
   </HelpKINode>
   <HelpKINode Title="ServerVolume.ServerVolume constructor">
-    <HelpKINode Title="ServerVolume Constructor " Url="html/M_net_openstack_Core_Domain_ServerVolume__ctor.htm" />
     <HelpKINode Title="ServerVolume Constructor " Url="html/M_OpenStack_Compute_v2_1_ServerVolume__ctor.htm" />
+    <HelpKINode Title="ServerVolume Constructor " Url="html/M_net_openstack_Core_Domain_ServerVolume__ctor.htm" />
   </HelpKINode>
   <HelpKINode Title="ServerVolume.VolumeId property">
     <HelpKINode Title="ServerVolume.VolumeId Property " Url="html/P_OpenStack_Compute_v2_1_ServerVolume_VolumeId.htm" />
@@ -10735,16 +10844,16 @@
     <HelpKINode Title="ResourceHints.Status Property " Url="html/P_net_openstack_Core_Domain_ResourceHints_Status.htm" />
     <HelpKINode Title="Router.Status Property " Url="html/P_OpenStack_Networking_v2_Layer3_Router_Status.htm" />
     <HelpKINode Title="RouterListOptions.Status Property " Url="html/P_OpenStack_Networking_v2_Layer3_RouterListOptions_Status.htm" />
-    <HelpKINode Title="Server.Status Property " Url="html/P_OpenStack_Compute_v2_1_Server_Status.htm" />
     <HelpKINode Title="Server.Status Property " Url="html/P_net_openstack_Core_Domain_Server_Status.htm" />
+    <HelpKINode Title="Server.Status Property " Url="html/P_OpenStack_Compute_v2_1_Server_Status.htm" />
     <HelpKINode Title="ServerEnteredErrorStateException.Status Property " Url="html/P_net_openstack_Core_Exceptions_ServerEnteredErrorStateException_Status.htm" />
     <HelpKINode Title="ServerImage.Status Property " Url="html/P_net_openstack_Core_Domain_ServerImage_Status.htm" />
     <HelpKINode Title="ServerListOptions.Status Property " Url="html/P_OpenStack_Compute_v2_1_ServerListOptions_Status.htm" />
     <HelpKINode Title="Service.Status Property " Url="html/P_OpenStack_ContentDeliveryNetworks_v1_Service_Status.htm" />
     <HelpKINode Title="Snapshot.Status Property " Url="html/P_net_openstack_Core_Domain_Snapshot_Status.htm" />
     <HelpKINode Title="SnapshotEnteredErrorStateException.Status Property " Url="html/P_net_openstack_Core_Exceptions_SnapshotEnteredErrorStateException_Status.htm" />
-    <HelpKINode Title="Volume.Status Property " Url="html/P_net_openstack_Core_Domain_Volume_Status.htm" />
     <HelpKINode Title="Volume.Status Property " Url="html/P_OpenStack_Compute_v2_1_Volume_Status.htm" />
+    <HelpKINode Title="Volume.Status Property " Url="html/P_net_openstack_Core_Domain_Volume_Status.htm" />
     <HelpKINode Title="VolumeEnteredErrorStateException.Status Property " Url="html/P_net_openstack_Core_Exceptions_VolumeEnteredErrorStateException_Status.htm" />
     <HelpKINode Title="VolumeSnapshot.Status Property " Url="html/P_OpenStack_Compute_v2_1_VolumeSnapshot_Status.htm" />
   </HelpKINode>
@@ -10897,7 +11006,6 @@
   <HelpKINode Title="TaskState.Unpausing property" Url="html/P_net_openstack_Core_Domain_TaskState_Unpausing.htm" />
   <HelpKINode Title="TaskState.Unrescuing property" Url="html/P_net_openstack_Core_Domain_TaskState_Unrescuing.htm" />
   <HelpKINode Title="TaskState.UpdatingPassword property" Url="html/P_net_openstack_Core_Domain_TaskState_UpdatingPassword.htm" />
-  <HelpKINode Title="TCP field" Url="html/F_OpenStack_Compute_v2_1_IPProtocol_TCP.htm" />
   <HelpKINode Title="TcpCheckDetails class">
     <HelpKINode Title="TcpCheckDetails Class" Url="html/T_net_openstack_Providers_Rackspace_Objects_Monitoring_TcpCheckDetails.htm" />
     <HelpKINode Title="about TcpCheckDetails class" Url="html/T_net_openstack_Providers_Rackspace_Objects_Monitoring_TcpCheckDetails.htm" />
@@ -11058,6 +11166,12 @@
     <HelpKINode Title="fields" Url="html/Fields_T_OpenStack_OpenStackNet_Tracing.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_OpenStack_OpenStackNet_Tracing.htm" />
   </HelpKINode>
+  <HelpKINode Title="TrafficDirection class">
+    <HelpKINode Title="TrafficDirection Class" Url="html/T_OpenStack_Networking_v2_TrafficDirection.htm" />
+    <HelpKINode Title="about TrafficDirection class" Url="html/T_OpenStack_Networking_v2_TrafficDirection.htm" />
+    <HelpKINode Title="constructor" Url="html/M_OpenStack_Networking_v2_TrafficDirection__ctor.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TrafficDirection.TrafficDirection constructor" Url="html/M_OpenStack_Networking_v2_TrafficDirection__ctor.htm" />
   <HelpKINode Title="TransactionId class">
     <HelpKINode Title="TransactionId Class" Url="html/T_net_openstack_Providers_Rackspace_Objects_Monitoring_TransactionId.htm" />
     <HelpKINode Title="about TransactionId class" Url="html/T_net_openstack_Providers_Rackspace_Objects_Monitoring_TransactionId.htm" />
@@ -11112,7 +11226,6 @@
     <HelpKINode Title="ServerAddress.Type Property " Url="html/P_OpenStack_Compute_v2_1_ServerAddress_Type.htm" />
     <HelpKINode Title="ServiceCatalog.Type Property " Url="html/P_net_openstack_Core_Domain_ServiceCatalog_Type.htm" />
   </HelpKINode>
-  <HelpKINode Title="UDP field" Url="html/F_OpenStack_Compute_v2_1_IPProtocol_UDP.htm" />
   <HelpKINode Title="Unit property">
     <HelpKINode Title="CheckData.CheckMetric.Unit Property " Url="html/P_net_openstack_Providers_Rackspace_Objects_Monitoring_CheckData_CheckMetric_Unit.htm" />
     <HelpKINode Title="DnsRateLimit.Unit Property " Url="html/P_net_openstack_Providers_Rackspace_Objects_Dns_DnsRateLimit_Unit.htm" />
@@ -11123,14 +11236,14 @@
     <HelpKINode Title="ServerState.Unknown Property " Url="html/P_net_openstack_Core_Domain_ServerState_Unknown.htm" />
   </HelpKINode>
   <HelpKINode Title="Unpausing property" Url="html/P_net_openstack_Core_Domain_TaskState_Unpausing.htm" />
-  <HelpKINode Title="UnRescue method" Url="html/M_net_openstack_Core_Domain_ServerBase_UnRescue.htm" />
   <HelpKINode Title="Unrescue method" Url="html/M_OpenStack_Synchronous_ServerExtensions_v2_1_Unrescue.htm" />
+  <HelpKINode Title="UnRescue method" Url="html/M_net_openstack_Core_Domain_ServerBase_UnRescue.htm" />
   <HelpKINode Title="UnrescueAsync method" Url="html/M_OpenStack_Compute_v2_1_ServerReference_UnrescueAsync.htm" />
-  <HelpKINode Title="UnRescueServer method">
-    <HelpKINode Title="IComputeProvider.UnRescueServer Method " Url="html/M_net_openstack_Core_Providers_IComputeProvider_UnRescueServer.htm" />
-    <HelpKINode Title="CloudServersProvider.UnRescueServer Method " Url="html/M_net_openstack_Providers_Rackspace_CloudServersProvider_UnRescueServer.htm" />
-  </HelpKINode>
   <HelpKINode Title="UnrescueServer method" Url="html/M_OpenStack_Synchronous_ComputeServiceExtensions_v2_1_UnrescueServer.htm" />
+  <HelpKINode Title="UnRescueServer method">
+    <HelpKINode Title="CloudServersProvider.UnRescueServer Method " Url="html/M_net_openstack_Providers_Rackspace_CloudServersProvider_UnRescueServer.htm" />
+    <HelpKINode Title="IComputeProvider.UnRescueServer Method " Url="html/M_net_openstack_Core_Providers_IComputeProvider_UnRescueServer.htm" />
+  </HelpKINode>
   <HelpKINode Title="UnrescueServerAsync method" Url="html/M_OpenStack_Compute_v2_1_ComputeService_UnrescueServerAsync.htm" />
   <HelpKINode Title="Unrescuing property" Url="html/P_net_openstack_Core_Domain_TaskState_Unrescuing.htm" />
   <HelpKINode Title="Update method">
@@ -11456,10 +11569,10 @@
   <HelpKINode Title="UserAuthenticationException class">
     <HelpKINode Title="UserAuthenticationException Class" Url="html/T_OpenStack_UserAuthenticationException.htm" />
     <HelpKINode Title="UserAuthenticationException Class" Url="html/T_net_openstack_Core_Exceptions_UserAuthenticationException.htm" />
-    <HelpKINode Title="about UserAuthenticationException class" Url="html/T_net_openstack_Core_Exceptions_UserAuthenticationException.htm" />
     <HelpKINode Title="about UserAuthenticationException class" Url="html/T_OpenStack_UserAuthenticationException.htm" />
-    <HelpKINode Title="constructor" Url="html/M_OpenStack_UserAuthenticationException__ctor.htm" />
+    <HelpKINode Title="about UserAuthenticationException class" Url="html/T_net_openstack_Core_Exceptions_UserAuthenticationException.htm" />
     <HelpKINode Title="constructor" Url="html/M_net_openstack_Core_Exceptions_UserAuthenticationException__ctor.htm" />
+    <HelpKINode Title="constructor" Url="html/M_OpenStack_UserAuthenticationException__ctor.htm" />
   </HelpKINode>
   <HelpKINode Title="UserAuthenticationException.UserAuthenticationException constructor">
     <HelpKINode Title="UserAuthenticationException Constructor " Url="html/M_OpenStack_UserAuthenticationException__ctor.htm" />
@@ -11515,16 +11628,16 @@
     <HelpKINode Title="methods" Url="html/Methods_T_net_openstack_Providers_Rackspace_Objects_Databases_UserName.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_net_openstack_Providers_Rackspace_Objects_Databases_UserName.htm" />
   </HelpKINode>
-  <HelpKINode Title="UserName property">
-    <HelpKINode Title="UserConfiguration.UserName Property " Url="html/P_net_openstack_Providers_Rackspace_Objects_Databases_UserConfiguration_UserName.htm" />
-    <HelpKINode Title="UpdateUserConfiguration.UserName Property " Url="html/P_net_openstack_Providers_Rackspace_Objects_Databases_UpdateUserConfiguration_UserName.htm" />
-  </HelpKINode>
   <HelpKINode Title="Username property">
+    <HelpKINode Title="PasswordCredential.Username Property " Url="html/P_net_openstack_Providers_Rackspace_Objects_Request_PasswordCredential_Username.htm" />
     <HelpKINode Title="User.Username Property " Url="html/P_net_openstack_Core_Domain_User_Username.htm" />
     <HelpKINode Title="CloudIdentity.Username Property " Url="html/P_net_openstack_Core_Domain_CloudIdentity_Username.htm" />
     <HelpKINode Title="NewUser.Username Property " Url="html/P_net_openstack_Core_Domain_NewUser_Username.htm" />
-    <HelpKINode Title="PasswordCredential.Username Property " Url="html/P_net_openstack_Providers_Rackspace_Objects_Request_PasswordCredential_Username.htm" />
     <HelpKINode Title="UserCredential.Username Property " Url="html/P_net_openstack_Core_Domain_UserCredential_Username.htm" />
+  </HelpKINode>
+  <HelpKINode Title="UserName property">
+    <HelpKINode Title="UpdateUserConfiguration.UserName Property " Url="html/P_net_openstack_Providers_Rackspace_Objects_Databases_UpdateUserConfiguration_UserName.htm" />
+    <HelpKINode Title="UserConfiguration.UserName Property " Url="html/P_net_openstack_Providers_Rackspace_Objects_Databases_UserConfiguration_UserName.htm" />
   </HelpKINode>
   <HelpKINode Title="UserName.Host property" Url="html/P_net_openstack_Providers_Rackspace_Objects_Databases_UserName_Host.htm" />
   <HelpKINode Title="UserName.Name property" Url="html/P_net_openstack_Providers_Rackspace_Objects_Databases_UserName_Name.htm" />
@@ -11650,13 +11763,13 @@
   <HelpKINode Title="Volume class">
     <HelpKINode Title="Volume Class" Url="html/T_OpenStack_Compute_v2_1_Volume.htm" />
     <HelpKINode Title="Volume Class" Url="html/T_net_openstack_Core_Domain_Volume.htm" />
-    <HelpKINode Title="about Volume class" Url="html/T_OpenStack_Compute_v2_1_Volume.htm" />
     <HelpKINode Title="about Volume class" Url="html/T_net_openstack_Core_Domain_Volume.htm" />
+    <HelpKINode Title="about Volume class" Url="html/T_OpenStack_Compute_v2_1_Volume.htm" />
     <HelpKINode Title="constructor" Url="html/M_OpenStack_Compute_v2_1_Volume__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/M_net_openstack_Core_Domain_Volume__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_OpenStack_Compute_v2_1_Volume.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_OpenStack_Compute_v2_1_Volume.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_net_openstack_Core_Domain_Volume.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_OpenStack_Compute_v2_1_Volume.htm" />
   </HelpKINode>
   <HelpKINode Title="Volume property" Url="html/P_net_openstack_Providers_Rackspace_Objects_Databases_DatabaseInstanceConfiguration_Volume.htm" />
   <HelpKINode Title="Volume.Attachments property">
@@ -11664,8 +11777,8 @@
     <HelpKINode Title="Volume.Attachments Property " Url="html/P_net_openstack_Core_Domain_Volume_Attachments.htm" />
   </HelpKINode>
   <HelpKINode Title="Volume.AvailabilityZone property">
-    <HelpKINode Title="Volume.AvailabilityZone Property " Url="html/P_OpenStack_Compute_v2_1_Volume_AvailabilityZone.htm" />
     <HelpKINode Title="Volume.AvailabilityZone Property " Url="html/P_net_openstack_Core_Domain_Volume_AvailabilityZone.htm" />
+    <HelpKINode Title="Volume.AvailabilityZone Property " Url="html/P_OpenStack_Compute_v2_1_Volume_AvailabilityZone.htm" />
   </HelpKINode>
   <HelpKINode Title="Volume.Created property" Url="html/P_OpenStack_Compute_v2_1_Volume_Created.htm" />
   <HelpKINode Title="Volume.CreatedAt property" Url="html/P_net_openstack_Core_Domain_Volume_CreatedAt.htm" />
@@ -11691,8 +11804,8 @@
     <HelpKINode Title="Volume.Status Property " Url="html/P_OpenStack_Compute_v2_1_Volume_Status.htm" />
   </HelpKINode>
   <HelpKINode Title="Volume.Volume constructor">
-    <HelpKINode Title="Volume Constructor " Url="html/M_net_openstack_Core_Domain_Volume__ctor.htm" />
     <HelpKINode Title="Volume Constructor " Url="html/M_OpenStack_Compute_v2_1_Volume__ctor.htm" />
+    <HelpKINode Title="Volume Constructor " Url="html/M_net_openstack_Core_Domain_Volume__ctor.htm" />
   </HelpKINode>
   <HelpKINode Title="Volume.VolumeType property" Url="html/P_net_openstack_Core_Domain_Volume_VolumeType.htm" />
   <HelpKINode Title="Volume.VolumeTypeId property" Url="html/P_OpenStack_Compute_v2_1_Volume_VolumeTypeId.htm" />
